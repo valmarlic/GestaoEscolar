@@ -1,0 +1,1177 @@
+@charset "ISO-8859-1";
+
+#dv_001 { /*Conteiner Principal - Externo*/
+	position: absolute;
+	width: 100%;
+	height: 1107px;
+	left: 2px;
+	top: 99px;
+	background: #D2D0D0;
+	border: 1px solid #898989;
+	box-sizing: border-box;
+}
+
+#dv_002 { /*Camada Principal interna*/
+	width: 1000px;
+	height: 1050px;
+	left: 200px;
+	border: 2px solid #898989;;
+	background: #E5E5E5;
+	border: 2px;
+	position: absolute;
+}
+
+#dv_003 { /* Barra interna*/
+	position: absolute;
+	width: 999px;
+	height: 21px;
+	left: 0px;
+	top: 0px;
+	background: #B4B4B4;
+}
+/*/////// Quadro - 1 Funcionamento escola///////*/
+#dv_004 { /*Fraime Local Funcionamento escola*/
+	position: absolute;
+	width: 320px;
+	height: 80px;
+	left: 5px;
+	top: 35px;
+	background: #FFFFFF;
+	border: 1px solid #0056B3;
+	box-sizing: border-box;
+}
+
+#dv_005 { /* Barra interna Local Funcionamento escola*/
+	position: absolute;
+	width: 318px;
+	height: 21px;
+	left: 0px;
+	top: 0px;
+	background: #B4B4B4;
+}
+
+.c_001 { /*Select Option Unidade de internação socioeducativo*/
+	width: 300px;
+	color: rgba(0, 0, 0, 1);
+	position: absolute;
+	font-family: Roboto;
+	font-weight: Regular;
+	font-size: 18px;
+	opacity: 1;
+	text-align: left;
+	border: 2px solid #898989;
+	left: 1px;
+	top: 30px;
+}
+
+.sp_001 { /*Nome na Barra Local Funcionamento escola*/
+	position: absolute;
+	width: 320px;
+	height: 21px;
+	left: 10px;
+	top: 0px;
+}
+/*//////////Quadro - 2 Ocupação prédio escolar//////////////*/
+#dv_006 { /*Fraime Forma de ocupação prédio escolar*/
+	position: absolute;
+	width: 260px;
+	height: 80px;
+	left: 350px;
+	top: 35px;
+	background: #FFFFFF;
+	border: 1px solid #0056B3;
+	box-sizing: border-box;
+}
+
+#dv_007 { /* Barra Forma de ocupação prédio escolar*/
+	position: absolute;
+	width: 258px;
+	height: 21px;
+	left: 0px;
+	top: 0px;
+	background: #B4B4B4;
+}
+
+.c_002 { /*Select Option Forma de ocupação prédio escolar*/
+	width: 200px;
+	color: rgba(0, 0, 0, 1);
+	position: absolute;
+	font-family: Roboto;
+	font-weight: Regular;
+	font-size: 18px;
+	opacity: 1;
+	text-align: center;
+	border: 2px solid #898989;
+	left: 25px;
+	top: 30px;
+}
+
+.sp_002 { /*Nome na Barra Forma de ocupação prédio escolar*/
+	position: absolute;
+	width: 320px;
+	height: 21px;
+	left: 10px;
+	top: 0px;
+}
+/*/////// Quadro - 3  Abastecimento de Água ///////////*/
+#dv_008 { /*Fraime Abastecimento de Água*/
+	position: absolute;
+	width: 300px;
+	height: 160px;
+	left: 5px;
+	top: 130px;
+	background: #FFFFFF;
+	border: 1px solid #0056B3;
+	box-sizing: border-box;
+	left: 5px;
+	top: 130px;
+	background: #FFFFFF;
+	border: 1px solid #0056B3;
+	box-sizing: border-box;
+}
+
+#dv_009 { /* Barra Abastecimento de Água*/
+	position: absolute;
+	width: 298px;
+	height: 21px;
+	left: 0px;
+	top: 0px;
+	background: #B4B4B4;
+}
+
+#dv_009_1 { /* Barra Fonte de Energia Elétrica*/
+	position: absolute;
+	width: 318px;
+	height: 21px;
+	left: 0px;
+	top: 0px;
+	background: #B4B4B4;
+}
+
+.sp_003 { /*Nome na Barra Abastecimento de Água */
+	position: absolute;
+	width: 320px;
+	height: 21px;
+	left: 10px;
+	top: 0px;
+}
+
+#dv_010 { /* Rede Pública */
+	position: absolute;
+	width: 180px;
+	height: 20px;
+	left: 2px;
+	top: 25px;
+	background: #FFFFFF;
+	box-sizing: border-box;
+}
+
+#dv_011 { /*poço artesiano*/
+	position: absolute;
+	width: 250px;
+	height: 20px;
+	left: 2px;
+	top: 50px;
+	background: #FFFFFF;
+	box-sizing: border-box;
+}
+
+#dv_012 { /*Cacimba; Cisterna; Poço*/
+	position: absolute;
+	width: 280px;
+	height: 20px;
+	left: 2px;
+	top: 75px;
+	background: #FFFFFF;
+	box-sizing: border-box;
+}
+
+#dv_013 { /*Fonte; Rio; Igarapé; Riacho; Córrego*/
+	position: absolute;
+	width: 250px;
+	height: 20px;
+	left: 2px;
+	top: 100px;
+	background: #FFFFFF;
+	box-sizing: border-box;
+}
+
+#dv_014 { /*Não há abastecimento de água*/
+	position: absolute;
+	width: 250px;
+	height: 20px;
+	left: 2px;
+	top: 125px;
+	background: #FFFFFF;
+	box-sizing: border-box;
+}
+
+#dv_014_1 { /*Não há abastecimento de água*/
+	position: absolute;
+	width: 250px;
+	height: 20px;
+	left: 2px;
+	top: 140px;
+	background: #FFFFFF;
+	box-sizing: border-box;
+}
+
+.cls_001 { /*input checkbox Rede Pública*/
+	position: absolute;
+	width: 18px;
+	height: 16px;
+	left: 270px;
+	top: 25px;
+	background: #FFFFFF;
+	border: 1px solid #0056B3;
+	box-sizing: border-box;
+}
+
+.cls_001_1 { /*input checkbox Rede Pública*/
+	position: absolute;
+	width: 18px;
+	height: 16px;
+	left: 290px;
+	top: 25px;
+	background: #FFFFFF;
+	border: 1px solid #0056B3;
+	box-sizing: border-box;
+}
+
+.cls_002 { /*input checkbox Poço artesiano*/
+	position: absolute;
+	width: 18px;
+	height: 16px;
+	left: 270px;
+	top: 50px;
+	background: #FFFFFF;
+	border: 1px solid #0056B3;
+	box-sizing: border-box;
+}
+
+.cls_002_1 { /*input checkbox Gerador movido à combustível fóssil*/
+	position: absolute;
+	width: 18px;
+	height: 16px;
+	left: 290px;
+	top: 50px;
+	background: #FFFFFF;
+	border: 1px solid #0056B3;
+	box-sizing: border-box;
+}
+
+.cls_003 { /*input checkbox Cacimba; Cisterna; Poço*/
+	position: absolute;
+	width: 18px;
+	height: 16px;
+	left: 270px;
+	top: 75px;
+	background: #FFFFFF;
+	border: 1px solid #0056B3;
+	box-sizing: border-box;
+}
+
+.cls_003_1 {
+	/*input checkbox Fonte de energia renováveis ou alternativas*/
+	position: absolute;
+	width: 18px;
+	height: 16px;
+	left: 290px;
+	top: 75px;
+	background: #FFFFFF;
+	border: 1px solid #0056B3;
+	box-sizing: border-box;
+}
+
+.cls_004 { /*input checkbox Fonte; Rio; Igarapé; Riacho; Córrego*/
+	position: absolute;
+	width: 18px;
+	height: 16px;
+	left: 270px;
+	top: 100px;
+	background: #FFFFFF;
+	border: 1px solid #0056B3;
+	box-sizing: border-box;
+}
+
+.cls_004_1 { /*Descarta em outras áreas*/
+	position: absolute;
+	width: 18px;
+	height: 16px;
+	left: 290px;
+	top: 100px;
+	background: #FFFFFF;
+	border: 1px solid #0056B3;
+	box-sizing: border-box;
+}
+
+.cls_005 { /*Não há abastecimento de água*/
+	position: absolute;
+	width: 18px;
+	height: 16px;
+	left: 270px;
+	top: 125px;
+	background: #FFFFFF;
+	border: 1px solid #0056B3;
+	box-sizing: border-box;
+}
+
+.cls_005_1 { /*input checkbox Fonte; Rio; Igarapé; Riacho; Córrego*/
+	position: absolute;
+	width: 18px;
+	height: 16px;
+	left: 270px;
+	top: 140px;
+	background: #FFFFFF;
+	border: 1px solid #0056B3;
+	box-sizing: border-box;
+}
+/*/////// Quadro - 4 Prédio Compartilhado///////////*/
+#dv_015 { /*Fraime Prédio Compartilhado*/
+	position: absolute;
+	width: 400px;
+	height: 160px;
+	left: 325px;
+	top: 130px;
+	background: #FFFFFF;
+	border: 1px solid #0056B3;
+	box-sizing: border-box;
+}
+
+#dv_016 { /* Barra Prédio Compartilhado*/
+	position: absolute;
+	width: 398px;
+	height: 21px;
+	left: 0px;
+	top: 0px;
+	background: #B4B4B4;
+}
+
+.sp_004 { /*Nome na Barra Prédio Compartilhado */
+	position: absolute;
+	width: 320px;
+	height: 21px;
+	left: 10px;
+	top: 0px;
+}
+
+.cls_006 { /*Radiu Sim*/
+	position: absolute;
+	width: 18px;
+	height: 16px;
+	left: 4px;
+	top: 28px;
+}
+
+#dv_017 { /*input radius button Sim*/
+	position: absolute;
+	width: 23px;
+	height: 16px;
+	left: 35px;
+	top: 25px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 14px;
+	/* identical to box height */
+	color: #000000;
+}
+
+.cls_007 { /*Radiu Não*/
+	position: absolute;
+	width: 18px;
+	height: 16px;
+	left: 95px;
+	top: 28px;
+}
+
+#dv_018 { /*input radius button Não*/
+	position: absolute;
+	width: 23px;
+	height: 16px;
+	left: 130px;
+	top: 25px;
+	font-size: 12px;
+	line-height: 14px;
+	/* identical to box height */
+	color: #000000;
+}
+
+.cls_008 { /*Código da escola com qual compartilha:*/
+	position: absolute;
+	width: 315px;
+	height: 14px;
+	left: 45px;
+	top: 45px;
+	box-sizing: border-box;
+}
+
+.cls_009 { /* 1 */
+	position: absolute;
+	width: 10px;
+	height: 20px;
+	left: 8px;
+	top: 65px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 20px;
+	/* identical to box height */
+	color: #000000;
+}
+
+.cls_010 { /* 2 */
+	position: absolute;
+	width: 10px;
+	height: 20px;
+	left: 140px;
+	top: 65px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 20px;
+	/* identical to box height */
+	color: #000000;
+}
+
+.cls_011 { /* 3 */
+	position: absolute;
+	width: 10px;
+	height: 20px;
+	left: 270px;
+	top: 65px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 20px;
+	/* identical to box height */
+	color: #000000;
+}
+
+.cls_012 { /* 4 */
+	position: absolute;
+	width: 10px;
+	height: 20px;
+	left: 8px;
+	top: 95px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 20px;
+	/* identical to box height */
+	color: #000000;
+}
+
+.cls_013 { /* 5 */
+	position: absolute;
+	width: 10px;
+	height: 20px;
+	left: 140px;
+	top: 95px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 20px;
+	/* identical to box height */
+	color: #000000;
+}
+
+.cls_014 { /* 6 */
+	position: absolute;
+	width: 10px;
+	height: 20px;
+	left: 270px;
+	top: 95px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 20px;
+	/* identical to box height */
+	color: #000000;
+}
+
+#dv_019 { /*input text 1*/
+	position: absolute;
+	width: 90px;
+	height: 14px;
+	left: 25px;
+	top: 65px;
+	text-align: center;
+}
+
+#dv_020 { /*input text 2*/
+	position: absolute;
+	width: 90px;
+	height: 14px;
+	left: 160px;
+	top: 65px;
+	text-align: center;
+}
+
+#dv_021 { /*Input text 3*/
+	position: absolute;
+	width: 90px;
+	height: 14px;
+	left: 290px;
+	top: 65px;
+	text-align: center;
+}
+
+#dv_022 { /*input text 4*/
+	position: absolute;
+	width: 90px;
+	height: 14px;
+	left: 25px;
+	top: 95px;
+	text-align: center;
+}
+
+#dv_023 { /*input text 5*/
+	position: absolute;
+	width: 90px;
+	height: 14px;
+	left: 160px;
+	top: 95px;
+	text-align: center;
+}
+
+#dv_024 { /*Input text 6*/
+	position: absolute;
+	width: 90px;
+	height: 14px;
+	left: 290px;
+	top: 95px;
+	text-align: center;
+}
+
+.cls_015 {
+	/**Caso o predio seja compartilhado informe o código da escola com
+					qual compartilha (até 6 códigos)*/
+	position: absolute;
+	width: 336px;
+	height: 28px;
+	left: 4px;
+	top: 1px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 14px;
+	color: #000000;
+}
+
+#dv_025 { /*Faixa  *Caso o predio seja compartilhado ....*/
+	position: absolute;
+	width: 390px;
+	height: 33px;
+	left: 4px;
+	top: 120px;;
+	background: #B4B4B4;
+}
+/*/////// Quadro - 5 Fonte de energia elétrica///////////*/
+#dv_026 { /*Fraime Fonte de energia elétrica*/
+	position: absolute;
+	width: 320px;
+	height: 130px;
+	left: 4px;
+	top: 300px;
+	background: #FFFFFF;
+	border: 1px solid #0056B3;
+	box-sizing: border-box;
+}
+
+/*/////// Quadro - 6 Esgotamento sanitário///////////*/
+#dv_027 { /*Fraime Esgotamento sanitário*/
+	position: absolute;
+	width: 300px;
+	height: 130px;
+	left: 345px;
+	top: 300px;
+	background: #FFFFFF;
+	border: 1px solid #0056B3;
+	box-sizing: border-box;
+}
+/*/////// Quadro - 7 Tratamento lixo/resíduos ///////////*/
+#dv_028 { /*Fraime Tratamento lixo/resíduos */
+	position: absolute;
+	width: 300px;
+	height: 130px;
+	left: 665px;
+	top: 300px;
+	background: #FFFFFF;
+	border: 1px solid #0056B3;
+	box-sizing: border-box;
+}
+/*/////// Quadro - 8 Destinação do Lixo ///////////*/
+#dv_029 { /* Destinação do Lixo */
+	position: absolute;
+	width: 300px;
+	height: 180px;
+	left: 4px;
+	top: 440px;
+	background: #FFFFFF;
+	border: 1px solid #0056B3;
+	box-sizing: border-box;
+}
+/*/////// Quadro - 9 Recursos de acessibilidade ///////////*/
+#dv_030 { /*Recursos de acessibilidade*/
+	position: absolute;
+	width: 300px;
+	height: 320px;
+	left: 4px;
+	top: 630px;
+	background: #FFFFFF;
+	border: 1px solid #0056B3;
+	box-sizing: border-box;
+}
+
+#dv_031 { /*Sinalização visual (piso/paredes)*/
+	position: absolute;
+	width: 250px;
+	height: 20px;
+	left: 2px;
+	top: 150px;
+	background: #FFFFFF;
+	box-sizing: border-box; 
+	
+}
+#dv_032 { /*Corrimão e guarda-corpos)*/
+	position: absolute;
+	width: 250px;
+	height: 20px;
+	left: 2px;
+	top: 175px;
+	background: #FFFFFF;
+	box-sizing: border-box;
+}
+
+#dv_033 { /*Portas com vão livre de no mínimo 80 cm)*/
+	position: absolute;
+	width: 200px;
+	height: 20px;
+	left: 2px;
+	top: 200px;
+	background: #FFFFFF;
+	box-sizing: border-box;
+}
+
+#dv_034 { /*Nenhum	dos	recursos de	acessibilidade listados)*/
+	position: absolute;
+	width: 250px;
+	height: 20px;
+	left: 2px;
+	top: 240px;
+	background: #FFFFFF;
+	box-sizing: border-box;
+}
+
+.cls_016 { /* Input checkBox Sinalização visual (piso/paredes)*/
+	position: absolute;
+	width: 18px;
+	height: 16px;
+	left: 270px;
+	top: 150px;
+	background: #FFFFFF;
+	border: 1px solid #0056B3;
+	box-sizing: border-box;
+}
+
+
+.cls_017 { /* Input checkBox  Corrimão e guarda-corpos*/
+	position: absolute;
+	width: 18px;
+	height: 16px;
+	left: 270px;
+	top : 175px;
+	background: #FFFFFF;
+	border: 1px solid #0056B3;
+	box-sizing: border-box;
+	
+}
+
+
+.cls_018 { /* Input checkBox  Portas com vão livre de no mínimo 80 cm*/
+	position: absolute;
+	width: 18px;
+	height: 16px;
+	left: 270px;
+    top: 200px;
+	background: #FFFFFF;
+	border: 1px solid #0056B3;
+	box-sizing: border-box;
+}
+
+
+.cls_019 {
+	/* Input checkBox  Nenhum	dos	recursos	de	acessibilidade listados*/
+	position: absolute;
+	width: 18px;
+	height: 16px;
+	left: 270px;
+    top: 235px;;
+	background: #FFFFFF;
+	border: 1px solid #0056B3;
+	box-sizing: border-box;
+}
+/*/////// Quadro - 10 Dependência existentes na escola ///////////*/
+ 			
+#dv_035{/*Dependência existentes na escola*/
+	
+	position: absolute;
+	width: 650px;
+	height: 510px;
+	left: 320px;
+	top: 442px;
+	background: #FFFFFF;
+	border: 1px solid #0056B3;
+	box-sizing: border-box;
+}
+#dv_036 { /* Barra Abastecimento de Água*/
+	position: absolute;
+	width: 648px;
+	height: 21px;
+	left: 0px;
+	top: 0px;
+	background: #B4B4B4;
+}
+#dv_037 { /*Refeitório)*/
+	position: absolute;
+	width: 200px;
+	height: 20px;
+	left: 2px;
+	top: 225px;
+	background: #FFFFFF;
+	box-sizing: border-box;
+}
+#dv_038 { /*Pátio coberto)*/
+	position: absolute;
+	width: 200px;
+	height: 20px;
+	left: 2px;
+	top: 250px;
+	background: #FFFFFF;
+	box-sizing: border-box;
+}
+#dv_039 { /*Pátio descoberto)*/
+	position: absolute;
+	width: 200px;
+	height: 20px;
+	left: 2px;
+	top: 275px;
+	background: #FFFFFF;
+	box-sizing: border-box;
+}
+#dv_040 { /*Sala/ateliê de artes)*/
+	position: absolute;
+	width: 200px;
+	height: 20px;
+	left: 2px;
+	top: 300px;
+	background: #FFFFFF;
+	box-sizing: border-box;
+}
+#dv_041 { /*Sala de música/coral)*/
+	position: absolute;
+	width: 200px;
+	height: 20px;
+	left: 2px;
+	top: 325px;
+	background: #FFFFFF;
+	box-sizing: border-box;
+}
+#dv_042 { /*Sala/estúdio de dança)*/
+	position: absolute;
+	width: 200px;
+	height: 20px;
+	left: 2px;
+	top: 350px;
+	background: #FFFFFF;
+	box-sizing: border-box;
+}
+#dv_043 { /*Sala de diretoria)*/
+	position: absolute;
+	width: 200px;
+	height: 20px;
+	left: 2px;
+	top: 375px;
+	background: #FFFFFF;
+	box-sizing: border-box;
+}
+#dv_044 { /*Sala de leitura*/
+	position: absolute;
+	width: 200px;
+	height: 20px;
+	left: 2px;
+	top: 400px;
+	background: #FFFFFF;
+	box-sizing: border-box;
+}
+#dv_045 { /*Sala de professores*/
+	position: absolute;
+	width: 200px;
+	height: 20px;
+	left: 2px;
+	top: 425px;
+	background: #FFFFFF;
+	box-sizing: border-box;
+}
+#dv_046 { /*Sala de secretaria*/
+	position: absolute;
+	width: 200px;
+	height: 20px;
+	left: 2px;
+	top: 450px;
+	background: #FFFFFF;
+	box-sizing: border-box;
+}
+
+#dv_047{/*Barra vertical - Dependência existentes na escola*/
+position: absolute;
+width: 0px;
+height: 440px;
+left: 200px;
+top: 26px;
+border: 1px solid #B4B4B4;
+}
+#dv_048{/*Banheiro adequado à educação infantil*/
+position: absolute;
+	width: 300px;
+	height: 20px;
+	left: 220px;
+	top: 25px;
+	background: #FFFFFF;
+	box-sizing: border-box;
+}
+#dv_049{/*Banheiro acessível(para Deficiente Físico)*/
+position: absolute;
+	width: 300px;
+	height: 20px;
+	left: 220px;
+	top: 50px;
+	background: #FFFFFF;
+	box-sizing: border-box;
+}
+#dv_050{/*Banheiro exclusivo para os funcionários*/
+position: absolute;
+	width: 300px;
+	height: 20px;
+	left: 220px;
+	top: 75px;
+	background: #FFFFFF;
+	box-sizing: border-box;
+}
+#dv_051{/*Banheiro ou vestiário com chuveiro*/
+position: absolute;
+	width: 300px;
+	height: 20px;
+	left: 220px;
+	top: 100px;
+	background: #FFFFFF;
+	box-sizing: border-box;
+}
+#dv_052{/*Sala de repouso para aluno(a)*/
+position: absolute;
+	width: 300px;
+	height: 20px;
+	left: 220px;
+	top: 125px;
+	background: #FFFFFF;
+	box-sizing: border-box;
+}
+#dv_053{/*Quadra de esportes coberta*/
+	position: absolute;
+	width: 300px;
+	height: 20px;
+	left: 220px;
+	top: 150px;
+	background: #FFFFFF;
+	box-sizing: border-box;
+}
+#dv_054{/*Quadra de esportes descoberta*/
+	position: absolute;
+	width: 300px;
+	height: 20px;
+	left: 220px;
+	top: 175px;
+	background: #FFFFFF;
+	box-sizing: border-box;
+}
+#dv_055{/*Laboratório de informática*/
+	position: absolute;
+	width: 300px;
+	height: 20px;
+	left: 220px;
+	top: 200px;
+	background: #FFFFFF;
+	box-sizing: border-box;
+}
+#dv_056{/*Laboratório de ciências*/
+	position: absolute;
+	width: 300px;
+	height: 20px;
+	left: 220px;
+	top: 225px;
+	background: #FFFFFF;
+	box-sizing: border-box;
+}
+#dv_057{/*Dormitório de professor*/
+	position: absolute;
+	width: 300px;
+	height: 20px;
+	left: 220px;
+	top: 250px;
+	background: #FFFFFF;
+	box-sizing: border-box;
+}
+#dv_058{/*Dormitório de aluno*/
+	position: absolute;
+	width: 300px;
+	height: 20px;
+	left: 220px;
+	top: 275px;
+	background: #FFFFFF;
+	box-sizing: border-box;
+}
+#dv_059{/*Sala multiuso (música, dança e artes)*/
+	position: absolute;
+	width: 300px;
+	height: 20px;
+	left: 220px;
+	top: 300px;
+	background: #FFFFFF;
+	box-sizing: border-box;
+}
+#dv_060{/*Viveiro/criação de animais*/
+	position: absolute;
+	width: 300px;
+	height: 20px;
+	left: 220px;
+	top: 325px;
+	background: #FFFFFF;
+	box-sizing: border-box;
+}
+#dv_061{/*Terreirão (área para prática desportiva e recreação sem cobertura, sem piso e sem edificações)*/
+	position: absolute;
+	width: 300px;
+	height: 20px;
+	left: 220px;
+	top: 350px;
+	background: #FFFFFF;
+	box-sizing: border-box;
+}
+#dv_062{/*Sala	de	recursos multifuncionais para Atendimento Educacional Especializado (AEE)*/
+	position: absolute;
+	width: 300px;
+	height: 20px;
+	left: 220px;
+	top: 410px;
+	background: #FFFFFF;
+	box-sizing: border-box;
+}
+#dv_063{/*Nenhuma das dependências relacionadas*/
+	position: absolute;
+	width: 300px;
+	height: 20px;
+	left: 220px;
+	top: 470px;
+	background: #FFFFFF;
+	box-sizing: border-box;
+}
+
+.cls_020{/*Input checkBox Almoxarifado*/
+	position: absolute;
+	width: 18px;
+	height: 16px;
+	left: 150px;
+	top: 25px;
+	background: #FFFFFF;
+	border: 1px solid #0056B3;
+	box-sizing: border-box;
+}
+.cls_021{/* Input checkBox  Área verde*/
+	position: absolute;
+	width: 18px;
+	height: 16px;
+	left: 150px;
+	top: 50px;
+	background: #FFFFFF;
+	border: 1px solid #0056B3;
+	box-sizing: border-box;
+}
+.cls_022{/*Input checkBox  Auditório*/
+	position: absolute;
+	width: 18px;
+	height: 16px;
+	left: 150px;
+	top: 75px;
+	background: #FFFFFF;
+	border: 1px solid #0056B3;
+	box-sizing: border-box;
+}
+.cls_023{/*Input checkBox  Biblioteca*/
+	position: absolute;
+	width: 18px;
+	height: 16px;
+	left: 150px;
+	top: 100px;
+	background: #FFFFFF;
+	border: 1px solid #0056B3;
+	box-sizing: border-box;
+}
+.cls_024{/*Input checkBox  Cozinha*/
+	position: absolute;
+	width: 18px;
+	height: 16px;
+	left: 150px;
+	top: 125px;
+	background: #FFFFFF;
+	border: 1px solid #0056B3;
+	box-sizing: border-box;
+}
+.cls_025{/*Input checkBox  Banheiro*/
+	position: absolute;
+	width: 18px;
+	height: 16px;
+	left: 150px;
+	top: 150px;
+	background: #FFFFFF;
+	border: 1px solid #0056B3;
+	box-sizing: border-box;
+}
+.cls_026{/*Input checkBox  Despensa*/
+	position: absolute;
+	width: 18px;
+	height: 16px;
+	left: 150px;
+	top: 175px;
+	background: #FFFFFF;
+	border: 1px solid #0056B3;
+	box-sizing: border-box;
+}
+.cls_027{/*Input checkBox  Piscina*/
+	position: absolute;
+	width: 18px;
+	height: 16px;
+	left: 150px;
+	top: 200px;
+	background: #FFFFFF;
+	border: 1px solid #0056B3;
+	box-sizing: border-box;
+}
+.cls_028{/*Input checkBox  Refeitório*/
+	position: absolute;
+	width: 18px;
+	height: 16px;
+	left: 150px;
+	top: 225px;
+	background: #FFFFFF;
+	border: 1px solid #0056B3;
+	box-sizing: border-box;
+}
+.cls_029{/*Input checkBox Pátio coberto*/
+	position: absolute;
+	width: 18px;
+	height: 16px;
+	left: 150px;
+	top: 250px;
+	background: #FFFFFF;
+	border: 1px solid #0056B3;
+	box-sizing: border-box;
+}
+.cls_030{/*Input checkBox Pátio descoberto*/
+	position: absolute;
+	width: 18px;
+	height: 16px;
+	left: 150px;
+	top: 275px;
+	background: #FFFFFF;
+	border: 1px solid #0056B3;
+	box-sizing: border-box;
+}
+.cls_031{/* Input checkBox Sala/ateliê de artes*/
+	position: absolute;
+	width: 18px;
+	height: 16px;
+	left: 150px;
+	top: 300px;
+	background: #FFFFFF;
+	border: 1px solid #0056B3;
+	box-sizing: border-box;
+}
+.cls_032{/* Input checkBox Sala de música/coral*/
+	position: absolute;
+	width: 18px;
+	height: 16px;
+	left: 150px;
+	top: 325px;
+	background: #FFFFFF;
+	border: 1px solid #0056B3;
+	box-sizing: border-box;
+}
+.cls_033{/*Input checkBox Sala/estúdio de dança*/
+	position: absolute;
+	width: 18px;
+	height: 16px;
+	left: 150px;
+	top: 350px;
+	background: #FFFFFF;
+	border: 1px solid #0056B3;
+	box-sizing: border-box;
+}
+.cls_034{/*Input checkBox Sala de diretoria*/
+	position: absolute;
+	width: 18px;
+	height: 16px;
+	left: 150px;
+	top: 375px;
+	background: #FFFFFF;
+	border: 1px solid #0056B3;
+	box-sizing: border-box;
+}
+.cls_035{/*Input checkBox Sala de leitura*/
+	position: absolute;
+	width: 18px;
+	height: 16px;
+	left: 150px;
+	top: 400px;
+	background: #FFFFFF;
+	border: 1px solid #0056B3;
+	box-sizing: border-box;
+}
+.cls_036{/*Input checkBox Sala de professores*/
+	position: absolute;
+	width: 18px;
+	height: 16px;
+	left: 150px;
+	top: 425px;
+	background: #FFFFFF;
+	border: 1px solid #0056B3;
+	box-sizing: border-box;
+}
+.cls_037{/*Input checkBox Sala de secretaria*/
+	position: absolute;
+	width: 18px;
+	height: 16px;
+	left: 150px;
+	top: 450px;
+	background: #FFFFFF;
+	border: 1px solid #0056B3;
+	box-sizing: border-box;
+}
+.cls_038{/*Input checkBox Banheiro adequado à educação infantil*/
+	position: absolute;
+	width: 18px;
+	height: 16px;
+	left: 615px;
+	top: 25px;
+	background: #FFFFFF;
+	border: 1px solid #0056B3;
+	box-sizing: border-box;
+}

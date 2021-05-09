@@ -1,0 +1,208 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+	*{
+		margin: 0;
+		padding: 0;
+	}
+
+	body{
+		background-color: #E5E5E5;
+		font-family: 'Roboto Condensed';
+	}
+
+	.nav_tabs{
+		width: 1200px;
+		height: 400px;
+		position: relative;
+		top:10px;
+		left: 10px;
+	}
+
+	.nav_tabs ul{
+		list-style: none;
+	}
+
+	.nav_tabs ul li{
+		float: left;
+	}
+
+	.tab_label{
+		display: block;
+		background-color: #fff;
+		padding: 20px;
+		font-size: 12px;
+		cursor: pointer;
+		text-align: center;
+               -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+                clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+               -webkit-border-radius:4px;
+	}
+
+	.nav_tabs .rd_tab { 
+	display:none;
+	position: float;
+	
+}
+
+.nav_tabs .rd_tab:checked ~ label { 
+	background-color: #00AEE6;
+	color:ffffff;
+}
+
+
+.rd_tab:checked ~ .tab-content{
+	display: block;
+}
+.tab-content h2{
+	padding: 10px;
+	color: #87d3b7;
+}
+.tab-content article{
+	padding: 10px;
+	color: #555;
+}
+
+.tab-content{
+	padding-left: 1rem;
+	padding-top: 1rem;
+	padding-right: 1rem;
+	border-top: solid 5px #C0C0C0;
+	background-color: #fff;
+	display: none;
+	position: absolute;
+	height: 200%;
+	width: 1200px;
+	left: 0;
+}
+
+.rd_tab:checked ~ .tab-content{
+	display: block;
+}
+
+.titulo1{
+	background: #B4B4B4;
+	text-align: center;
+}
+.titulo2{
+	background: #B4B4B4;
+	text-align: left;
+    padding-left: 2px;
+    margin-top:1rem;
+}
+
+
+.titulo3{
+	background: #B4B4B4;
+	text-align: left;
+        padding-left: 2px;
+
+}
+
+.divisoria{
+    display: flex;
+}
+
+
+.quadro1-inf-gerais{
+	width: 80rem;
+	border: solid 1px #001A36;
+    padding: auto;
+}
+.vcls_trSituFuncioname{	
+		border: solid 1px #001A36;
+		text-align: left;
+        padding-left: 230px;
+        padding-top: 20px;
+	
+}
+.quadro-endereco, .quadro-contato{
+	width: 80rem;
+	border: solid 1px #001A36;
+    margin-top: 1rem;
+}
+
+.quadro-1 {
+     width: 50%;
+	border: solid 1px #001A36;
+}
+.quadro-2 {
+     width: 50%;
+	border: solid 1px #001A36;
+    margin-left: 1rem;
+}
+.quadro-3 {
+    margin-top: 0.5rem;
+     width: 100%;
+	border: solid 1px #001A36;
+}
+
+.quadro-4 {
+    margin-top: 0.5rem;
+     width: 20%;
+	border: solid 1px #001A36;
+}
+
+#camposcodigo {
+    padding-left: 1rem;    
+}
+
+.prediocomp{
+    margin-left: 0.5rem;
+
+}
+#campos01{
+        padding-left: 3px;
+}
+.alinhamento1{
+        padding-left: 3px;
+}
+
+#campos02col{
+		
+     padding-left: 3px;
+    display: grid;
+   
+  /* esssa é a altura das linhas, se vc quiser pode apaga-la caso não queira uma altura definida */
+  grid-auto-rows: 20px;
+  /* espaço entre um elemento interno e outro */
+  /* margem interna que afasta os elementos da borda do grid */  
+}
+
+.quadro-agua{
+       width: 49.2%;
+	border: solid 1px #001A36;
+    margin-top: 0.5rem;
+        margin-left: 1.0rem;
+}
+
+.quadro-dependencia{
+	height:100%;
+    width: 100%;
+	border: solid 1px #001A36;
+    margin-top: 0.5rem;
+}
+
+.quadrosalas{
+	
+    width: 100%;
+	border: solid 1px #001A36;
+    margin-top: 1rem;
+}
+
+
+#form1{
+    margin-top: 0.5rem;
+    display:flex;
+    justify-content: flex-start;
+
+}
+
+.cls_codInep{
+	width:300px;
+	height:50px;
+	background-color:red;
+	border: solid 1px #001A36;
+	z-index:1;
+	left: 100px;
+	top: 100px;
+	
+}

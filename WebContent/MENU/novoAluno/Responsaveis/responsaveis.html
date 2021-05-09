@@ -1,0 +1,173 @@
+<html lang="pt-br">
+          <head>
+            <meta charset="utf-8">
+          
+            <title>Novo aluno - Responsáveis</title>
+            <meta name="description" content="Figma htmlGenerator">
+            <meta name="author" content="htmlGenerator">
+            <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+            <link rel="stylesheet" href="stylesResponsaveis.css">
+          </head>
+          
+  <body>
+
+
+ 	<div id="e295_1880"><!-- Conteiner inerno -->
+   		<div id="e295_1940"><!-- Barra Responsáveis -->
+   			<span id="e295_1962">Novo aluno - Responsáveis</span>
+   		</div>
+  	<div id="e295_1941"><!-- Quadro de Conteúdo -->
+   		 
+		<form action="" method="post"  onsubmit="validarCampos(this); return false;">
+   		<span id="e295_1932">Filiação 1</span>
+   		<input id="e295_1934" value=""></input>
+   		<span id="e295_1933">CPF</span>
+   		
+   		
+   		<input id="e295_1931" value=""><!-- Caixa de texto CPF --></input>
+   		<span id="e295_1927">Filiação 2</span>
+   		<input id="e295_1928" value=""><!-- Caixa Filiação 2 --></input>
+ 		<span id="e295_1926">CPF</span>
+ 		<input id="e295_1924" type="text"><!--Input Caixa de Texto CPF --></input>
+ 		
+ 		<input class="rbtn_pai1" type="radio" name="campo-radio1"><!-- Caixa RadioButton Pai --></input><span class="spn_Pai1">Pai</span>
+ 		<input class="rbtn_mae1" type="radio" name="campo-radio1"><!-- Caixa RadioButton Mae 1 --></input><span class="spn_Mae1">Mãe</span>
+ 		<input class="rbtn_outro1" type="radio" name="campo-radio1"><!-- Caixa RadioButton Outro 1 --></input><span class="spn_outro1">Outro</span>
+ 		<input class="rbtn_nDeclarado1" type="radio" name="campo-radio1"><!-- Caixa RadioButton Não declarado 1 --></input><span class="spn_nDeclarado1">Não declarado</span>
+ 		
+ 		<input class="rbtn_pai2" type="radio" name="campo-radio2"><!-- Caixa RadioButton Pai 2 --></input><span class="spn_Pai2">Pai</span>
+ 		<input class="rbtn_mae2" type="radio" name="campo-radio2"><!-- Caixa RadioButton Mae 2 --></input><span class="spn_Mae2">Mãe</span>
+ 		<input class="rbtn_outro2" type="radio" name="campo-radio2"><!-- Caixa RadioButton Outro 2 --></input><span class="spn_outro2">Outro</span>
+ 		<input class="rbtn_nDeclarado2" type="radio" name="campo-radio2"><!-- Caixa ChekcBox Não declarado 2 --></input><span class="spn_nDeclarado2">Não declarado</span>
+ 		<span class="spn_responsavel">Responsável</span>
+ 		
+ 		<select id="slct_Respsavl" name="UF" value="Selecione">
+					<option>Selecione
+						<option>Pai</option>
+						<option>Mãe</option>
+						<option>Outro</option>
+					</option>			
+		</select>
+ 		
+ 		<span class="spn_horDispnivl">Horários disponíveis dos pais/responsáveis para reunião:</span>
+ 		<input id="dv_DtaDispnivl" type="time" value="00:00"><!-- Horários disponíveis dos pais/responsáveis para reunião: --></input>
+ 		
+ 		<span class="spn_psoaAutorzda">Nome de pessoas autorizadas a buscar o aluno da escola:</span>
+ 		<input class="cls_PssAutzda" value=""><!-- Caixa de texto Pessoa autzda --></input>
+ 		
+ 		<span class="cls_nomResponsvel">Nome Responsável</span>
+ 		<input class="cls_nomPssAutzda" type="text"><!--Input Caixa de Texto Nome Responsável --></input>
+ 		<span class="spn_cpfResponsvl">CPF do Responsável</span>
+ 		<input class="cls_cpfResponsvl" type="text"><!--Input Caixa de Texto CPF Responsável --></input>
+ 		
+ 		<span class="spn_endResponsvl">Endereço Responsável</span>
+ 				<div id="dv_endendResponsvl"><!-- Quadro de Endereço do Responsável -->
+ 				<span class="cls_CEP">CEP:</span>
+				 <span class="cls_astericoCEP">*</span>
+ 				<input class="cls_InputCEP" name="cep" value=""><!-- Caixa de texto Cep Respon --></input>
+ 				<span class="cls_Complemto">Complemento:</span>
+ 				<input class="cls_InputComplnto" value=""><!-- Caixa de texto Complemento Respon --></input>
+ 				<span class="cls_UF">UF:</span>
+ 				
+ 					<select class="cls_selcttUF" name="UF" value="Selecione">
+						<option>Selecione
+							<option>MA</option>
+							<option>PA</option>
+							<option>BA</option>
+						</option>			
+					</select>
+					
+ 				<span class="cls_znaResidcial">Zona Residencial:</span>
+ 					<select class="cls_selctznaResidcial" name="UF" value="Selecione">
+						<option>Selecione
+							<option>Zona Rural</option>
+							<option>Zona Urbana</option>
+						</option>			
+					</select>
+ 				<span class="cls_mordia">Moradia:</span>
+ 						<select class="cls_selctMoradia" name="UF" value="Selecione">
+						<option>Selecione
+							<option>Oca</option>
+							<option>Palafita</option>
+							<option>Pau a Pique</option>
+							<option>Alvenaria</option>
+							<option>Edifícios</option>
+							<option>Pré-Montadas</option>
+						</option>			
+					</select>
+ 					
+ 				<span class="cls_telfon">Telefone:</span>
+ 				<input class="cls_InputTelefone" value=""><!-- Caixa de texto Telefone Respon --></input>
+ 				
+ 				<span class="cls_numero">Número:</span>
+ 				<input class="cls_inputNumero" name="numero" value=""></input>
+ 				<span class="cls_astricoNumro"><!-- Astrico -->*</span>
+ 				<span class="cls_bairro">Bairro:</span>
+ 				<input class="cls_inputBairro" name="bairro" value=""></input>
+ 				<span class="cls_astricoBairro"><!-- Astrico -->*</span>
+ 				<span class="cls_municipio">Município:</span>
+ 				<input class="cls_inputMunicipio" value="xxxxxxxx"></input>
+ 				<span class="cls_nacinaldade">Nacionalidade:</span>
+ 				
+ 						<select class="cls_selctNacionalidade" name="UF" value="Selecione">
+						<option>Selecione
+							<option>BR</option>
+							<option>USA</option>
+							<option>UKR</option>
+							<option>URU</option>
+							<option>UZB</option>
+							<option>UGA</option>
+						</option>			
+					</select>
+ 				
+ 				<span class="cls_E_mail">E-mail:</span>
+ 				<input class="cls_inputE_mail" value="xxxxxxxx"></input>
+ 				<span class="cls_munic_Nasmcnto">Município de Nascimento:</span>
+ 				
+ 				<select class="cls_selctMuniNascimento" name="UF" value="Selecione">
+						<option>Selecione
+							<option>São luis</option>
+							<option>São José de Ribamar</option>
+							<option>Raposa</option>
+							<option>Anajatuba</option>
+							<option>Paço do Lumiar</option>
+							<option>Matões</option>
+						</option>			
+					</select>
+					
+					<span class="cls_logradouro">Logradouro:</span>
+					<input class="cls_inptLogradouro" value="xxxxxxxx"></input>
+					
+					<span class="cls_distrito">Distrito:</span>
+					<input class="cls_inputDistrito" value="xxxxxxxx"></input>
+					
+					<span class="cls_LdResidencia">Localização diferenciada de Residência:</span>
+ 							
+ 					<select class="cls_selctLocDifResincia" name="UF" value="Selecione">
+						<option>Selecione
+							<option>1 - Terra indigina;</option>
+							<option>2 - Área de Assentamento;</option>
+							<option>3 - Área remanescente de quilombos;</option>
+							<option>4 - Não está em área de localização diferenciada</option>
+						</option>			
+				   </select>
+ 							
+ 				</div>
+ 	
+  				<div id="e295_1943"><!-- Barra Salvar Cancelar -->
+						
+				<span class="cls_29"><input type="submit" class="cls_027" value="Salvar" ></input></span>
+						 
+ 				<span class="cls_29"><input type="submit" class="cls_028" value="Cancelar" onclick=""></input></span>
+ 					
+ 				</div>
+ 						
+ 	 </div>
+ 				
+   	</form>
+  </div>
+    <script type="text/javascript" src="confirma.js"></script>
+    </body>
+    
+</html>

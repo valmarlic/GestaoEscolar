@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	rel="stylesheet">
+<title>Menu Lateral com submenu</title>
+<script src="https://code.jquery.com/jquery-3.5.1.js"
+	integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+	crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+
+	<nav class="menuLateral">
+		<div class="titulo">
+			Gestão Escolar <span class="material-icons">close</span>
+		</div>
+
+		<ul>
+
+			<li><a href="#" class="escola">Escola<span
+					class="material-icons">arrow_right</span></a></li>
+
+			<ul class="itensEscola">
+				<li><a href="#" class="escola_Cadastro">Cadastro</a></li>
+					<ul class="itensEscola_Cadastro">
+						<li><a href="#">Novo</a></li>
+						<li><a href="#">Alterar</a></li>
+						<li><a href="#">Encerrar</a></li>
+					</ul>
+				<li><a href="#">Remanejar</a></li>
+				<li><a href="#">Pesquisar</a></li>
+				<li><a href="#">Excluir</a></li>
+			</ul>
+
+			<li><a href="#" class="aluno">Aluno <span
+					class="material-icons">arrow_right</span></a></li>
+
+			<ul class="itensAluno">
+				<li><a href="#" class="aluno_Cadastro">Cadastro</a></li>
+					<ul class="itensAluno_Cadastro" >
+						<li><a target="menuLateraal" href="../novoAluno/guiasNovoAluno.html">Novo</a></li>
+						<li><a href="#">Alterar</a></li>
+						<li><a href="#">Encerrar</a></li>
+					</ul>
+				<li><a href="#">Remanejar</a></li>
+				<li><a href="#">Pesquisar</a></li>
+				<li><a href="#">Excluir</a></li>
+			</ul>
+
+			<li><a href="#" class="funcionario">Funcionário<span
+					class="material-icons">arrow_right</span></a>
+			</li>
+			<ul class="itensFuncionario">
+			
+				<li><a href="#" class="func_cadastro">Cadastro</a></li>
+					<ul class="itensFunc_Cadastro">
+						<li><a href="#">Novo</a></li>
+						<li><a href="#">Alterar</a></li>
+					</ul>	
+				<li><a href="#">Pesquisar</a></li>
+				<li><a href="#">Vincular</a></li>
+				<li><a href="#">Excluir</a></li>
+			</ul>
+
+		</ul>
+	</nav>
+	<article>
+		<iframe name="menuLateraal"> </iframe>
+	</article>
+
+	<script type="text/javascript" src="js/script.js"></script>
+
+
+</body>
+</html>

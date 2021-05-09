@@ -1,0 +1,1052 @@
+ body {
+ background: #E5E5E5;
+ width:90%;
+ }
+
+
+#e295_1941 { /*Quadro de Conte�do*/
+	background-color:rgba(238.00000101327896, 244.0000006556511, 246.0000005364418, 1);
+	opacity:1;
+	border:0.5px solid rgba(0, 169.00000512599945, 231.00000143051147, 1);
+	width:73%;
+	height:550px;
+	position:absolute;
+	left:6px;
+	top:29px;
+}
+#e295_1961 { /*Dados de identifica��o*/
+	color:rgba(255, 255, 255, 1);
+	opacity:1;
+	width:81px;
+	height:32px;
+	position:absolute;
+	left:7px;
+	top:6px;
+	font-family:Roboto;
+	text-align:center;
+	font-size:14px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+#e295_1960 { /*Guia de dados de Identifica��o*/
+	background-color:rgba(180.00000447034836, 180.00000447034836, 180.00000447034836, 1);
+	opacity:1;
+	border:1px solid rgba(0, 86.00000247359276, 179.000004529953, 1);
+	width:100px;
+	height:46px;
+	position:absolute;
+	left:42px;
+	top:56px;
+	border-top-right-radius:28px;
+}
+#e295_1940 { /* Barra Consultar */
+	background-color:rgba(179.56249594688416, 179.56249594688416, 179.56249594688416, 1);
+	opacity:1;
+	border:1px solid rgba(0, 86.00000247359276, 179.000004529953, 1);
+	width:73.05%;
+	height:22px;
+	position:absolute;
+	left:3px;
+	top:3px;
+}
+#e295_1962 { /* Consultar na Barra */
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:250px;
+	height:16px;
+	position:absolute;
+	left:346px;
+	top:4px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:14px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+#e295_1932 { /* Filia��o 1 */
+	color:rgba(0, 0, 0, 1);
+	width:79px;
+	height:14px;
+	position:absolute;
+	left:73px;
+	top:25px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+
+}
+#e295_1934 { /*Input Filia��o 1*/
+	background-color:rgba(255, 255, 255, 1);
+	opacity:1;
+	width:274px;
+	height:21px;
+	position:absolute;
+	left:152px;
+	top:20px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+	text-align: center;;
+}
+#e295_1933 { /* CPF filia��o 1*/
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:174px;
+	height:20px;
+	position:absolute;
+	left:73px;
+	top:60px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+
+.cls_astericoCEP{/*AstericoCep */
+	color:red;
+	opacity:1;
+	width:22px;
+	height:20px;
+	position:absolute;
+	left:40px;
+	top:7px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+	
+}
+
+
+#e295_1931 { /* Input CPF */
+	background-color:rgba(255, 255, 255, 1);
+	opacity:1;
+	border:0.5px solid rgba(78.62500101327896, 78.62500101327896, 78.62500101327896, 1);
+	width:274px;
+	height:21px;
+	position:absolute;
+	left:152px;
+	top:55px;
+	text-align: center;
+}
+#e295_1927 { /*Filia��o 2*/
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:82px;
+	height:16px;
+	position:absolute;
+	left:73px;
+	top:90px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+
+#e295_1928 { /*Input Caixa de Filia��o 2 */
+	background-color:rgba(255, 255, 255, 1);
+	opacity:1;
+	border:0.5px solid rgba(78.62500101327896, 78.62500101327896, 78.62500101327896, 1);
+	width:274px;
+	height:21px;
+	position:absolute;
+	left:152px;
+	top:85px;
+	text-align: center;
+}
+#e295_1926 { /* CPF filia��o 2*/
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:174px;
+	height:20px;
+	position:absolute;
+	left:73px;
+	top:125px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+#e295_1924 { /*Input caixa de Texto CPF filia��o 2 */
+	background-color:rgba(255, 255, 255, 1);
+	opacity:1;
+	border:0.5px solid rgba(78.62500101327896, 78.62500101327896, 78.62500101327896, 1);
+	width:274px;
+	height:21px;
+	position:absolute;
+	left:152px;
+	top:115px;
+	text-align: center;
+}
+.spn_Pai1 { /* Pai 1 */
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:28px;
+	height:20px;
+	position:absolute;
+	left:492px;
+	top:20px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+.rbtn_pai1{/*Input caixa radio button pai 1*/
+	background-color:rgba(255, 255, 255, 1);
+	opacity:1;
+	border:0.5px solid rgba(78.62500101327896, 78.62500101327896, 78.62500101327896, 1);
+	position:absolute;
+	font-size:12px;
+	left:462px;
+	top:18px;
+	text-align: center;
+}
+
+.spn_Mae1{/* M�e 1 */
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:28px;
+	height:20px;
+	position:absolute;
+	left:570px;
+	top:20px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+.rbtn_mae1{/*Input caixa radio button M�e 1 */
+	background-color:rgba(255, 255, 255, 1);
+	opacity:1;
+	border:0.5px solid rgba(78.62500101327896, 78.62500101327896, 78.62500101327896, 1);
+	position:absolute;
+	font-size:12px;
+	left:540px;
+	top:18px;
+	text-align: center;
+}
+.rbtn_outro1{/*Input caixa RadioButton Outro 1 */
+	background-color:rgba(255, 255, 255, 1);
+	opacity:1;
+	border:0.5px solid rgba(78.62500101327896, 78.62500101327896, 78.62500101327896, 1);
+	position:absolute;
+	font-size:12px;
+	left:610px;
+	top:18px;
+	text-align: center;
+}
+.spn_outro1{/*Outro 1*/
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:28px;
+	height:20px;
+	position:absolute;
+	left:640px;
+	top:20px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+.rbtn_nDeclarado1{/*Input caixa RadioButton N�o declarado 1*/
+	background-color:rgba(255, 255, 255, 1);
+	opacity:1;
+	border:0.5px solid rgba(78.62500101327896, 78.62500101327896, 78.62500101327896, 1);
+	position:absolute;
+	font-size:12px;
+	left:700px;
+	top:18px;
+	text-align: center;
+}
+.spn_nDeclarado1{/*N�o Declarado 1*/
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:120px;
+	height:20px;
+	position:absolute;
+	left:730px;
+	top:20px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+	
+}
+.rbtn_pai2{/* Caixa RadioButton Pai 2 */
+	background-color:rgba(255, 255, 255, 1);
+	opacity:1;
+	border:0.5px solid rgba(78.62500101327896, 78.62500101327896, 78.62500101327896, 1);
+	position:absolute;
+	font-size:12px;
+	left:462px;
+	top:56px;
+	text-align: center;
+}
+.spn_Pai2{/*Pai 2*/
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:28px;
+	height:20px;
+	position:absolute;
+	left:492px;
+	top:58px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+.rbtn_mae2{/* Caixa RadioButton M�e 2  */
+	background-color:rgba(255, 255, 255, 1);
+	opacity:1;
+	border:0.5px solid rgba(78.62500101327896, 78.62500101327896, 78.62500101327896, 1);
+	position:absolute;
+	font-size:12px;
+	left:540px;
+	top:56px;
+	text-align: center;
+}
+
+.spn_Mae2{/*M�e 2*/
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:28px;
+	height:20px;
+	position:absolute;
+	left:570px;
+	top:58px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+
+.rbtn_outro2{/* Caixa RadioButton Outro 2 */
+	
+	background-color:rgba(255, 255, 255, 1);
+	opacity:1;
+	border:0.5px solid rgba(78.62500101327896, 78.62500101327896, 78.62500101327896, 1);
+	position:absolute;
+	font-size:12px;
+	left:610px;
+	top:56px;
+	text-align: center;
+}
+.spn_outro2{/* Outro 2 */
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:28px;
+	height:20px;
+	position:absolute;
+	left:640px;
+	top:58px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+
+.rbtn_nDeclarado2{/*Input caixa RadioButton N�o declarado 2*/
+	background-color:rgba(255, 255, 255, 1);
+	opacity:1;
+	border:0.5px solid rgba(78.62500101327896, 78.62500101327896, 78.62500101327896, 1);
+	position:absolute;
+	font-size:12px;
+	left:700px;
+	top:56px;
+	text-align: center;
+	
+}
+.spn_nDeclarado2{/* N�o declarado 2*/
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:120px;
+	height:20px;
+	position:absolute;
+	left:730px;
+	top:58px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+
+.spn_responsavel{/*Respons�vel */
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:174px;
+	height:20px;
+	position:absolute;
+	left:73px;
+	top:160px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+	
+}
+#slct_Respsavl{/*Select Respons�vel*/
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:174px;
+	height:20px;
+	position:absolute;
+	left:155px;
+	top:158px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+
+.spn_horDispnivl{/*Hor�rio dispon�vel p/r Reuni�es */
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:180px;
+	height:20px;
+	position:absolute;
+	left:462px;
+	top:100px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+
+#dv_DtaDispnivl{/* Hor�rio disponivel p/ reuni�o */
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:130px;
+	height:20px;
+	position:absolute;
+	left:680px;
+	top:100px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+.spn_psoaAutorzda{/*Pessoa autoriza a b alno da escola*/
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:230px;
+	height:20px;
+	position:absolute;
+	left:462px;
+	top:140px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+.cls_PssAutzda{/*Input Pessoa autoriza a bcar alno da escola */
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:210px;
+	height:20px;
+	position:absolute;
+	left:600px;
+	top:155px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+.cls_nomResponsvel{/*Nome Pessoa Rspos�vel */
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:174px;
+	height:20px;
+	position:absolute;
+	left:73px;
+	top:200px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+.cls_nomPssAutzda{/*Input caixa text Pessoa respons�vel*/
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:227px;
+	height:20px;
+	position:absolute;
+	left:203px;
+	top:195px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+.spn_cpfResponsvl{/* CPF do Respons�vel*/
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:227px;
+	height:20px;
+	position:absolute;
+	left:73px;
+	top:235px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+.cls_cpfResponsvl{/*Input texto CPF do Respons�vel*/
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:230px;
+	height:20px;
+	position:absolute;
+	left:203px;
+	top:235px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+.spn_endResponsvl{/*Endere�o do Respons�vel*/
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:227px;
+	height:20px;
+	position:absolute;
+	left:100px;
+	top:260px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+
+
+#dv_endendResponsvl{/*Quadro de Endere�o do Respons�vel*/
+	background-color:rgba(238.00000101327896, 244.0000006556511, 246.0000005364418, 1);
+	opacity:1;
+	border:0.5px solid rgba(0, 169.00000512599945, 231.00000143051147, 1);
+	width:710px;
+	height:220px;
+	position:absolute;
+	left:100px;;
+	top:280px;
+	
+}
+.cls_CEP{/*Cep do respons�vel*/
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:174px;
+	height:20px;
+	position:absolute;
+	left:3px;
+	top:10px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+	
+}
+.cls_InputCEP{/*Input Cep end Respons�vel*/
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:100px;
+	height:20px;
+	position:absolute;
+	left:120px;
+	top:8px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+.cls_Complemto{/* Complemento end respons�vel */
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:174px;
+	height:20px;
+	position:absolute;
+	left:3px;
+	top:40px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+.cls_InputComplnto{/*Input complemento end Respons�vel*/
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:150px;
+	height:20px;
+	position:absolute;
+	left:120px;
+	top:35px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+.cls_UF{/*UF de end Respons�vel*/
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:174px;
+	height:20px;
+	position:absolute;
+	left:3px;
+	top:70px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+.cls_selcttUF{/* Select UF  de end Respons�vel*/
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:150px;
+	height:20px;
+	position:absolute;
+	left:120px;
+	top:65px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+
+.cls_znaResidcial{/*Zona Residencial de Respons�vel*/
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:174px;
+	height:20px;
+	position:absolute;
+	left:3px;
+	top:100px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+.cls_selctznaResidcial{/*Select de Zona Residencial end respons�vel*/
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:150px;
+	height:20px;
+	position:absolute;
+	left:120px;
+	top:100px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+.cls_mordia{/* Moradia de Respons�vel*/
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:174px;
+	height:20px;
+	position:absolute;
+	left:3px;
+	top:130px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+.cls_selctMoradia{/* select Tipo de Moradia*/
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:150px;
+	height:20px;
+	position:absolute;
+	left:120px;
+	top:125px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+.cls_telfon{/* Telefone */
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:174px;
+	height:20px;
+	position:absolute;
+	left:3px;
+	top:160px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+.cls_InputTelefone{/*Input Texto Telefone */
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:150px;
+	height:20px;
+	position:absolute;
+	left:120px;
+	top:153px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+
+.cls_numero{/* N�mero end respons�vel*/
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:174px;
+	height:20px;
+	position:absolute;
+	left:300px;
+	top:10px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+.cls_inputNumero{/*Input texto Numero*/
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:100px;
+	height:20px;
+	position:absolute;
+	left:390px;
+	top:8px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+.cls_astricoNumro{/* Asterico N�mero * */
+	color:rgba(255, 0, 0, 1);
+	opacity:1;
+	width:88px;
+	height:40px;
+	position:absolute;
+	left:355px;;
+	top:8px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:18px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+.cls_bairro{/*Bairro*/
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:174px;
+	height:20px;
+	position:absolute;
+	left:300px;
+	top:40px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+.cls_inputBairro{
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:100px;
+	height:20px;
+	position:absolute;
+	left:390px;
+	top:37px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+.cls_astricoBairro{/*Asterico Bairro*/
+	color:rgba(255, 0, 0, 1);
+	opacity:1;
+	width:88px;
+	height:40px;
+	position:absolute;
+	left:355px;;
+	top:35px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:18px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+.cls_municipio{/* Munic�pio */
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:174px;
+	height:20px;
+	position:absolute;
+	left:300px;
+	top:75px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+.cls_inputMunicipio{/*Input Munic�pio*/
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:100px;
+	height:20px;
+	position:absolute;
+	left:390px;
+	top:70px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+.cls_nacinaldade{/*Nacionalidade*/
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:174px;
+	height:20px;
+	position:absolute;
+	left:300px;
+	top:105px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+.cls_selctNacionalidade{/*Input Select ncionalidade */
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:100px;
+	height:20px;
+	position:absolute;
+	left:390px;
+	top:100px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+.cls_E_mail{/*Email*/
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:174px;
+	height:20px;
+	position:absolute;
+	left:300px;
+	top:140px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+.cls_inputE_mail{/*Input text Email*/
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:100px;
+	height:20px;
+	position:absolute;
+	left:390px;
+	top:135px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+.cls_munic_Nasmcnto{/* Munic�pio de Nascimento */
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:174px;
+	height:20px;
+	position:absolute;
+	left:210px;
+	top:185px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+.cls_selctMuniNascimento{/*Input text Minic�pio de Nascimento*/
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:100px;
+	height:20px;
+	position:absolute;
+	left:390px;
+	top:180px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+.cls_logradouro{/*Logradouro*/
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:100px;
+	height:20px;
+	position:absolute;
+	left:520px;
+	top:8px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+.cls_inptLogradouro{/*Input text Logradouro*/
+color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:100px;
+	height:20px;
+	position:absolute;
+	left:600px;
+	top:8px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;	
+}
+.cls_distrito{/*Distrito*/
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:100px;
+	height:20px;
+	position:absolute;
+	left:520px;
+	top:35px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+.cls_inputDistrito{/*Input text Distrito*/
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:100px;
+	height:20px;
+	position:absolute;
+	left:600px;
+	top:35px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+.cls_LdResidencia{/*Localiza��o diferenciada de Resid�ncia*/
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:200px;
+	height:20px;
+	position:absolute;
+	left:520px;
+	top:70px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+.cls_selctLocDifResincia{/*Input Localiza��o diferenciada de Resid�ncia*/
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:170px;
+	height:20px;
+	position:absolute;
+	left:520px;
+	top:105px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+#e295_1943 { /* Barra Savar cancelar */
+	font-family: Roboto;
+	opacity:1;
+	width:423px;
+	height:25px;
+	position:absolute;
+	left:180px;
+	top:520px;
+}
+
+.cls_027 { /*Bot�o Salvar*/
+	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+	background-color:rgba(149.81249392032623, 149.81249392032623, 149.81249392032623, 1);
+	color:rgba(255, 255, 255, 1);
+	opacity:1;
+	border:1px solid rgba(138.1250050663948, 138.1250050663948, 138.1250050663948, 1);
+	width:115px;
+	height:22px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	border-radius:8px;
+}
+.cls_29 input:hover{
+	cursor:pointer;
+	background-color: #370707;
+	transition: 0.5s;
+}
+
+.cls_028 { /*Cancelar*/
+	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+	background-color:rgba(149.81249392032623, 149.81249392032623, 149.81249392032623, 1);
+	opacity:1;
+	color:rgba(255, 255, 255, 1);
+	border:1px solid rgba(138.1250050663948, 138.1250050663948, 138.1250050663948, 1);
+	width:115px;
+	height:22px;
+	position:absolute;
+	left:306px;
+	top:0px;
+	border-radius:8px;
+}
+

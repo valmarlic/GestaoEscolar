@@ -1,0 +1,277 @@
+body {
+	background: #E5E5E5;
+	width: 80%;
+}
+#qd_freimeConteudo { /*Quadro - Freime de Conteúdo */
+	background-color: rgba(238.00000101327896, 244.0000006556511, 246.0000005364418, 1);
+	font-size:14px;
+	opacity: 1;
+	border: 0.5px solid rgba(0, 169.00000512599945, 231.00000143051147, 1);
+	width: 65%;
+	height: 400px;
+	position: absolute;
+	left: 5px;
+	top: 0px;
+}
+
+#dv_barraFormacaoSuperior { /* Formação Superior  */
+	background-color: rgba(179.56249594688416, 179.56249594688416, 179.56249594688416, 1);
+	text-align: center; opacity : 1;
+	border: 1px solid rgba(0, 86.00000247359276, 179.000004529953, 1);
+	width: 99.3%;
+	height:18px;
+	position: absolute;
+	opacity: 1; border : 1px solid rgba( 0, 86.00000247359276,
+	179.000004529953, 1); width : 99.3%; height : 22px; position : absolute;
+	left: 3px;
+}
+
+#dv_QudroFormaSuperior{/*Quadro Formção Superior Caso 1*/
+	background-color: rgba(238.00000101327896, 244.0000006556511, 246.0000005364418, 1);
+	opacity: 1;
+	border: 0.5px solid rgba(0, 169.00000512599945, 231.00000143051147, 1);
+	width: 99.3%;
+	height: 130px;
+	position: absolute;
+	left: 3px;;
+	top: 25px
+	
+}
+
+#dv_Qudro1FormaSuperior{/*Quadro Formção Superior Caso 2*/
+	background-color: rgba(238.00000101327896, 244.0000006556511, 246.0000005364418, 1);
+	opacity: 1;
+	border: 0.5px solid rgba(0, 169.00000512599945, 231.00000143051147, 1);
+	width: 99.3%;
+	height: 90px;
+	position: absolute;
+	left: 3px;;
+	top: 157px
+}
+
+#dv_Qudro1FormaComplenPedagogica{/*Quadro de formação complentar pedagógia*/
+	background-color: rgba(238.00000101327896, 244.0000006556511, 246.0000005364418, 1);
+	opacity: 1;
+	border: 0.5px solid rgba(0, 169.00000512599945, 231.00000143051147, 1);
+	width: 99.3%;
+	height: 90px;
+	position: absolute;
+	left: 3px;;
+	top: 249px
+}
+
+.cls_caso_1{/*Deficiencia*/
+	position:absolute;
+	height:18px;
+	font-family: Roboto;
+
+	top:10px;
+	left: 10px;
+}
+
+.cls_CkBoxcegueira{/*Inpt checkbox Cegueira*/
+	position:absolute;
+	width:18px;
+	height:18px;
+	font-family: Roboto;
+	top:45px;
+	left: 30px;
+}
+
+.cls_Cegueira{/*Cegueira*/
+	position:absolute;
+	height:18px;
+	font-family: Roboto;
+	top:45px;
+	left: 75px;
+	
+}
+
+.cls_CkBoxBaixaVisao{/*inpt checkbox baixa visão*/
+	position:absolute;
+	width:18px;
+	height:18px;
+	font-family: Roboto;
+	top:45px;
+	left: 215px;
+}
+.cls_BaixaVisao{/*Baixa visão*/
+	position:absolute;
+	height:18px;
+	font-family: Roboto;
+	top:45px;
+	left: 250px;
+}
+.cls_CkBoxDfienciaAuditva{/*input chckbox Deficiência auditiva*/
+	position:absolute;
+	width:18px;
+	height:18px;
+	font-family: Roboto;
+	top:45px;
+	left: 355px;
+}
+
+.cls_DfienciaAuditva{/*Deficiência auditiva*/
+	position:absolute;
+	height:18px;
+	font-family: Roboto;
+	top:45px;
+	left: 395px;
+}
+.cls_CkBoxDfienciaFisica{/*input checkbox Deficiência Física*/
+	position:absolute;
+	width:18px;
+	height:18px;
+	font-family: Roboto;
+	top:45px;
+	left: 560px;
+}
+.cls_DfienciaFisica{/*Deficiência física*/
+	position:absolute;
+	height:18px;
+	font-family: Roboto;
+	top:45px;
+	left: 600px;
+}
+.cls_CkBoxSurdoCegueira{/*Input checkbox SurdoCegueira*/
+	position:absolute;
+	width:18px;
+	height:18px;
+	font-family: Roboto;
+	top:90px;
+	left: 30px;
+}
+.cls_SurdoCegueira{/* Surdocegueira */
+	position:absolute;
+	height:18px;
+	font-family: Roboto;
+	top:90px;
+	left: 75px;
+}
+
+.cls_CkBoxSurdez{/*Input checkbox surdez*/
+	position:absolute;
+	width:18px;
+	height:18px;
+	font-family: Roboto;
+	top:90px;
+	left: 215px;
+}
+
+.cls_Surdez{/*Surdez*/
+	position:absolute;
+	height:18px;
+	font-family: Roboto;
+	top:90px;
+	left: 250px;
+}
+
+.cls_CkBoxDfciMultipl{/* Input checkbox Deficiência Múltipla*/
+	
+	position:absolute;
+	width:18px;
+	height:18px;
+	font-family: Roboto;
+	top:90px;
+	left: 355px;
+}
+
+.cls_DfciMultipl{/*Deficiência Multipla*/
+	position:absolute;
+	height:18px;
+	font-family: Roboto;
+	top:90px;
+	left: 395px;
+}
+.cls_CkBoxDfciIntelctal{/*input checkbox Deficiência intelectual*/
+	position:absolute;
+	width:18px;
+	height:18px;
+	font-family: Roboto;
+	top:90px;
+	left: 560px;
+	
+}
+.cls_DfciIntelctal{/*Deficiência intelectual*/
+	position:absolute;
+	height:18px;
+	font-family: Roboto;
+	top:90px;
+	left: 600px;
+}
+
+
+#br_habilitacao { /*Barra Habilitação*/
+	background-color: rgba(179.56249594688416, 179.56249594688416, 179.56249594688416, 1);
+	text-align: center; opacity : 1;
+	border: 1px solid rgba(0, 86.00000247359276, 179.000004529953, 1);
+	width: 99.3%;
+	height: 22px;
+	position: absolute;
+	opacity: 1; border : 1px solid rgba( 0, 86.00000247359276,
+	179.000004529953, 1); width : 99.3%; height : 22px; position : absolute;
+	left: 3px;
+}
+
+#e295_1943 { /* Quadro Salvar/ Cancelar*/
+	font-family: Roboto;
+	opacity: 1;
+	width: 423px;
+	height: 25px;
+	position: absolute;
+	left: 200px;
+	top: 360px;
+}
+
+
+
+.cls_027 { /*BotÃ£o Salvar*/
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	background-color: rgba(149.81249392032623, 149.81249392032623, 149.81249392032623, 1);
+	color: rgba(255, 255, 255, 1);
+	opacity: 1;
+	border: 1px solid
+		rgba(138.1250050663948, 138.1250050663948, 138.1250050663948, 1);
+	width: 115px;
+	height: 22px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	border-radius: 8px;
+}
+
+.cls_29 input:hover {
+	cursor: pointer;
+	background-color: #370707;
+	transition: 0.5s;
+}
+
+.cls_028 { /*Cancelar*/
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	background-color: rgba(149.81249392032623, 149.81249392032623, 149.81249392032623, 1);
+	opacity: 1;
+	color: rgba(255, 255, 255, 1);
+	border: 1px solid
+		rgba(138.1250050663948, 138.1250050663948, 138.1250050663948, 1);
+	width: 115px;
+	height: 22px;
+	position: absolute;
+	left: 306px;
+	top: 0px;
+	border-radius: 8px;
+}
+
+#e295_1947 { /*Exportar Arquivo*/
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	background-color: rgba(149.81249392032623, 149.81249392032623, 149.81249392032623, 1);
+	color: rgba(255, 255, 255, 1);
+	opacity: 1;
+	border: 1px solid
+		rgba(138.1250050663948, 138.1250050663948, 138.1250050663948, 1);
+	width: 115px;
+	height: 22px;
+	position: absolute;
+	left: 153px;
+	top: 0px;
+	border-radius: 8px;
+}

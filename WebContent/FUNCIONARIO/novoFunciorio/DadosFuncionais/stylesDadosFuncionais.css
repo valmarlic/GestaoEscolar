@@ -1,0 +1,505 @@
+
+
+ body {background: #E5E5E5;
+ width:80%;
+ font-size: 18px;
+ }
+
+input {
+	color: rgba(255, 255, 255, 1);
+	opacity: 1;
+	width: 25px;
+	height: 16px;
+	position: absolute;
+	font-family: Roboto;
+	font-size: 14px;
+	line-height: undefined;
+}
+
+#qdro_Funcao{/*Quadro - Freime de Conteúdo */
+	background-color:rgba(238.00000101327896, 244.0000006556511, 246.0000005364418, 1);
+	opacity:1;
+	border:0.5px solid rgba(0, 169.00000512599945, 231.00000143051147, 1);
+	width:92%;
+	height:810px;
+	position:absolute;
+	font-size: 14px;
+	left:6px;
+	top:29px;
+	
+}
+
+#dv_002 { /*Barra de Dados Funcionários*/
+	background-color: rgba(179.56249594688416, 179.56249594688416, 179.56249594688416, 1);
+	opacity: 1;
+	border: 1px solid rgba(0, 86.00000247359276, 179.000004529953, 1);
+	width: 95%;
+	height: 22px;
+	position: absolute;
+	left: 5px;
+	top: 0px;
+}
+
+#dv_006{/* Quadro - Motivo Contrato */
+	background-color:rgba(238.00000101327896, 244.0000006556511, 246.0000005364418, 1);
+	opacity:1;
+	border:0.5px solid rgba(0, 169.00000512599945, 231.00000143051147, 1);
+	width:99.3%;
+	height:100px;
+	position:absolute;
+	left: 3px;
+	top: 250px;
+	
+}
+#qd_RgimeEspecial{/*Quadro - Regime Especial */
+	background-color:rgba(238.00000101327896, 244.0000006556511, 246.0000005364418, 1);
+	opacity:1;
+	border:0.5px solid rgba(0, 169.00000512599945, 231.00000143051147, 1);
+	width:99.3%;
+	height:90px;
+	position:absolute;
+	left: 3px;
+	top: 150px;
+	
+}
+#qd_RgimeEspcialDuplVinculo{/*Quadro - Regime Especial Duplo vínculo */
+	background-color:rgba(238.00000101327896, 244.0000006556511, 246.0000005364418, 1);
+	opacity:1;
+	border:0.5px solid rgba(0, 169.00000512599945, 231.00000143051147, 1);
+	width:99.3%;
+	height:90px;
+	position:absolute;
+	left: 3px;
+	top: 640px;
+	
+}
+#dv_qdroDuploViculo{/*Quadro duplo vículo*/
+	background-color:rgba(238.00000101327896, 244.0000006556511, 246.0000005364418, 1);
+	opacity:1;
+	border-top:4px solid rgba(0, 169.00000512599945, 231.00000143051147, 1);
+	border-right:0.5px solid rgba(0, 169.00000512599945, 231.00000143051147, 1);
+	border-left:0.5px solid rgba(0, 169.00000512599945, 231.00000143051147, 1);
+	border-bottom:0.5px solid rgba(0, 169.00000512599945, 231.00000143051147, 1);
+	width:99.3%;
+	height:150px;
+	position:absolute;
+	left:3px;;
+	top: 365px
+}
+
+#qd_Rgistro{
+	background-color:rgba(238.00000101327896, 244.0000006556511, 246.0000005364418, 1);
+	opacity:1;
+	border:0.5px solid rgba(0, 169.00000512599945, 231.00000143051147, 1);
+	width:99.3%;
+	height:90px;
+	position:absolute;
+	left: 3px;
+	top: 535px
+	
+}
+.cls_DupVinculo{/*Duplo vínculo*/
+	width:115px;
+	height:24px;
+	background-color:rgba(238.00000101327896, 244.0000006556511, 246.0000005364418, 1);
+	position:absolute;
+	left:55px;;
+	top: -13px;
+	text-align: center;
+	
+}
+.cls_DdosFuncionario { /*Dados Funcionários*/
+	text-align: center;
+	position: absolute;
+	left: 440px;
+	top:3px;
+}
+
+
+.cls_Funcao{/* Função */
+	font-family: Roboto;
+	text-align: center;
+	position: absolute;
+	left: 30px;
+	top:3px;
+}
+
+
+.selct_Funcao{/*Select Função*/
+	width:250px;
+	font-family: Roboto;
+	text-align: center;
+	position: absolute;
+	left: 210px;
+	top:3px;
+}
+.cls_FuncaoVinculo{/* Função Vinculo */
+	font-family: Roboto;
+	text-align: center;
+	position: absolute;
+	left: 30px;
+	top:5px;
+}
+
+
+.cls_Matricula{/*Matrícula*/
+	width:250px;
+	font-family: Roboto;
+	position: absolute;
+	left: 30px;
+	top:30px;
+	
+}
+
+.inpt_Matricula{/*Input Matrícula*/
+	width:250px;
+	font-family: Roboto;
+	position: absolute;
+	left: 210px;
+	top:30px;
+	
+}
+
+.cls_MatriculVinculo{/*Matricula em Vinculo*/
+	width:250px;
+	font-family: Roboto;
+	position: absolute;
+	left: 30px;
+	top:35px;
+}
+
+.inpt_MatriculVinculo{/*Input Matricul vinculo*/
+	width:250px;
+	font-family: Roboto;
+	position: absolute;
+	left: 150px;
+	top:35px;
+}
+.cls_situFuncional{/*Situação Funcional*/
+	width:250px;
+	font-family: Roboto;
+	position: absolute;
+	left: 30px;
+	top:55px;
+}
+
+.inpt_situFuncional{/*Input Situação Funcional*/
+	width:250px;
+	font-family: Roboto;
+	position: absolute;
+	left: 210px;
+	top:55px;
+}
+
+.cls_dtAdmissao{/*Data de Admissão*/
+	width:250px;
+	font-family: Roboto;
+	position: absolute;
+	left: 30px;
+	top:85px;
+}
+.inpt_dtAdmissao{/*Input data de admissão*/
+	color:rgba(0, 0, 0, 1);
+	width:250px;
+	font-family: Roboto;
+	position: absolute;
+	left: 210px;
+	top:85px;
+}
+
+.cls_dtDemissao{/*Data de Demissão*/
+	width:250px;
+	font-family: Roboto;
+	position: absolute;
+	left: 30px;
+	top:115px;
+}
+.inpt_dtDemissao{/*Input data de Demissão*/
+	color:rgba(0, 0, 0, 1);
+	width:250px;
+	font-family: Roboto;
+	position: absolute;
+	left: 210px;
+	top:115px;
+}
+.cls_CargHoraSemnal{/*Carga horária semanal*/
+	width:250px;
+	font-family: Roboto;
+	position: absolute;
+	left: 510px;
+	top:85px;
+}
+
+.inpt_CargHoraSemnal{/*Input carga horária semanal*/
+	width:250px;
+	font-family: Roboto;
+	position: absolute;
+	left: 750px;
+	top:85px;
+}
+.cls_finalContrato{/*Final do Contrato*/
+	width:250px;
+	font-family: Roboto;
+	position: absolute;
+	left: 510px;
+	top:115px;
+}
+.inpt_finalContrato{
+	width:250px;
+	font-family: Roboto;
+	position: absolute;
+	left: 750px;
+	top:115px;
+}
+
+.inptCkbx_RgimeEspecial{/*Input CheckBok Regime especial*/
+	width:25px;
+	font-family: Roboto;
+	position: absolute;
+	left: 15px;
+	top:5px;
+	
+}
+
+.cls_RgimeEspecial{/*Rgime especial*/
+	width:250px;
+	font-family: Roboto;
+	position: absolute;
+	left: 80px;
+	top:5px;
+}
+
+.inptCkbx_letraNumero{/*Input chrckBox Letra / Número*/
+	
+	width:25px;
+	font-family: Roboto;
+	position: absolute;
+	left: 15px;
+	top:40px;
+	
+}
+.cls_letraNumerol{
+	width:250px;
+	font-family: Roboto;
+	position: absolute;
+	left: 80px;
+	top:40px;
+	
+}
+
+.cls_matAnterior{/*Matrícula Anterior*/
+	width:150px;
+	font-family: Roboto;
+	position: absolute;
+	left: 300px;
+	top:5px;
+}
+.inpt_matAnterior{/*Input Matricula Anterior*/
+	width:150px;
+	font-family: Roboto;
+	position: absolute;
+	left:460px;
+	top:5px;
+}
+.slc_regimeJuridco{/* Regime juridico*/
+	width:150px;
+	font-family: Roboto;
+	position: absolute;
+	left: 300px;
+	top:40px;
+}
+
+.select_regimeJuridco{/*Select Regime juridico*/
+	width:150px;
+	font-family: Roboto;
+	position: absolute;
+	left:460px;
+	top:40px;
+	
+}
+
+.slc_dtAcessoFuncional{/*Data Acesso Funcional*/
+	color:rgba(0, 0, 0, 1);
+	width:180px;
+	font-family: Roboto;
+	position: absolute;
+	left:660px;
+	top:5px;
+}
+.inpt_dtAcessoFuncional{/*Input data acesso Acesso funcional*/
+	width:150px;
+	font-family: Roboto;
+	position: absolute;
+	left:840px;
+	top:5px;
+}
+.slc_motiContrato{/*Motivo contrato*/
+	width:180px;
+	font-family: Roboto;
+	position: absolute;
+	left:660px;
+	top:40px;
+}
+
+.select_motivContrato{
+	width:150px;
+	font-family: Roboto;
+	position: absolute;
+	left:840px;
+	top:40px;
+}
+
+.cls_Registro{/*Rgistro*/
+	width:150px;
+	font-family: Roboto;
+	position: absolute;
+	left: 20px;
+	top:4px;
+}
+.inpt_Registro{/*input Registro*/
+	width:150px;
+	font-family: Roboto;
+	position: absolute;
+	left: 130px;
+	top:4px;
+}
+.cls_letraNumerol{/*Letra número*/
+	width:150px;
+	font-family: Roboto;
+	position: absolute;
+	left: 20px;
+	top:40px;
+}
+
+.inpt_letraNumerol{/*input Letra Número*/
+	width:150px;
+	font-family: Roboto;
+	position: absolute;
+	left: 130px;
+	top:40px;
+}
+
+
+
+
+.cls_cboxRegimeEspcal{/*Input checkBox Regime especial*/
+	width:25px;
+	font-family: Roboto;
+	position: absolute;
+	left: 15px;
+	top:10px;
+	
+}
+.slc_RegimeEspca{/*Regime especial*/
+	width:150px;
+	font-family: Roboto;
+	position: absolute;
+	left: 70px;
+	top:10px;
+	
+}
+.cls_cboxConcursado{/*Input checkbox Concursado*/
+	width:25px;
+	font-family: Roboto;
+	position: absolute;
+	left: 250px;
+	top:10px;
+}
+.slc_Concursado{/*Concursado*/
+	width:150px;
+	font-family: Roboto;
+	position: absolute;
+	left: 300px;
+	top:10px;
+}
+.cls_cboxConcurZonRuraEspc{/* checkBox Concursado zona rural específico*/
+	width:25px;
+	font-family: Roboto;
+	position: absolute;
+	left: 460px;
+	top:10px;
+}
+.slc_ConcurZonRuraEspc{/*Concursado zona Rural Específco*/
+	width:250px;
+	font-family: Roboto;
+	position: absolute;
+	left: 520px;
+	top:10px;
+}
+
+.slc_DtEntradNaEscola{/*Data de entrada na escola*/
+	width:250px;
+	font-family: Roboto;
+	position: absolute;
+	left: 70px;
+	top:60px;
+}
+.cls_inputDtEntradNaEscola{/*input text Data entrada na escola*/
+	color:rgba(0, 0, 0, 1);
+	width:220px;
+	font-family: Roboto;
+	position: absolute;
+	left: 290px;
+	top:60px;
+}
+
+.slc_DtSaidadNaEscola{/*Data de Saída na escola*/
+	width:250px;
+	font-family: Roboto;
+	position: absolute;
+	left: 590px;
+	top:60px;
+	
+}
+
+.cls_inputDtSaidadNaEscola{/*input data de saida na escola*/
+	color:rgba(0, 0, 0, 1);
+	width:220px;
+	font-family: Roboto;
+	position: absolute;
+	left: 790px;
+	top:60px;
+}
+#e295_1943 { /* Quadro - botao Salvar/Cancelar*/
+	font-family: Roboto;
+	opacity:1;
+	width:423px;
+	height:25px;
+	position:absolute;
+	left:350px;
+	top:800px;
+}
+.cls_29 input:hover{
+	cursor:pointer;
+	background-color: #370707;
+	transition: 0.5s;
+}
+.cls_Bcanc01 { /*BotÃ£o Salvar*/
+	font-family: Roboto;
+	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+	background-color:rgba(149.81249392032623, 149.81249392032623, 149.81249392032623, 1);
+	color:rgba(255, 255, 255, 1);
+	opacity:1;
+	border:1px solid rgba(138.1250050663948, 138.1250050663948, 138.1250050663948, 1);
+	width:115px;
+	height:22px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	border-radius:8px;
+}
+
+.cls_Bcanc02 { /*Cancelar*/
+	font-family: Roboto;
+	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+	background-color:rgba(149.81249392032623, 149.81249392032623, 149.81249392032623, 1);
+	opacity:1;
+	color:rgba(255, 255, 255, 1);
+	border:1px solid rgba(138.1250050663948, 138.1250050663948, 138.1250050663948, 1);
+	width:115px;
+	height:22px;
+	position:absolute;
+	left:306px;
+	top:0px;
+	border-radius:8px;
+}

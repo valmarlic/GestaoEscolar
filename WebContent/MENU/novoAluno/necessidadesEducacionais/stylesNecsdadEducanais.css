@@ -1,0 +1,448 @@
+
+
+ body {background: #E5E5E5;
+ width:100%;
+ }
+
+input {
+	color: rgba(255, 255, 255, 1);
+	opacity: 1;
+	width: 25px;
+	height: 16px;
+	position: absolute;
+	font-family: Roboto;
+	font-size: 14px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+
+#dv_001 { /*Fraime de Conteúdo*/
+	background-color: rgba(238.00000101327896, 244.0000006556511, 246.0000005364418, 1);
+	opacity: 1;
+	border: 0.5px solid rgba(0, 169.00000512599945, 231.00000143051147, 1);
+	width: 100%;
+	height: 670px;
+	position: absolute;
+}
+
+#dv_002 { /*Barra necessidades Educacionais*/
+	background-color: rgba(179.56249594688416, 179.56249594688416, 179.56249594688416, 1);
+	opacity: 1;
+	border: 1px solid rgba(0, 86.00000247359276, 179.000004529953, 1);
+	width: 99.7%;
+	height: 22px;
+	position: absolute;
+}
+
+.cls_001 { /*Necessidades Educacionais*/
+	text-align: center;
+	position: absolute;
+	left: 400px;
+}
+
+.cls_002 { /*Possui deficiência?*/
+	top: 45px;
+	left: 10px;
+	position: absolute;
+}
+
+.cls_003 { /*Input radio button Possui deficiência? sim*/
+	top: 45px;
+	left: 190px;
+	position: absolute;
+}
+
+.cls_004 { /* Possui deficiência? sim */
+	top: 45px;
+	left: 220px;
+	position: absolute;
+}
+
+.cls_005 { /*Input radio button Possui deficiência? não*/
+	top: 45px;
+	left: 280px;
+	position: absolute;
+}
+
+.cls_006 { /*Possui deficiência? não*/
+	top: 45px;
+	left: 320px;
+	position: absolute;
+}
+
+.cls_007 { /*Possui Laudo Médico?*/
+	top: 80px;
+	left: 10px;
+	position: absolute;
+}
+
+.cls_008 { /* Input Radio Button Possui laudo médico? - Sim*/
+	top: 80px;
+	left: 190px;
+	position: absolute;
+}
+
+.cls_009 { /*Possui Laudo Médico? - Sim*/
+	top: 80px;
+	left: 220px;
+	position: absolute;
+}
+
+.cls_010 { /* Input Radio Button Possui laudo médico? - Não*/
+	top: 80px;
+	left: 280px;
+	position: absolute;
+}
+
+.cls_011 { /* Possui laudo médico? - Não */
+	top: 80px;
+	left: 320px;
+	position: absolute;
+}
+
+.cls_012 { /*Anexar Laudo*/
+	top: 115px;
+	left: 10px;
+	position: absolute;
+}
+
+.cls_013 { /*Input file - Buscar*/
+	color: rgba(112.000000923872, 112.000000923872, 112.000000923872, 1);
+	width: 350px;
+	height: 22px;
+	top: 115px;
+	left: 205px;
+	position: absolute;
+}
+.cls_014{/* Deficiencia */
+	top: 160px;
+	left: 10px;
+	position: absolute;
+}
+
+#dv_003{/*Quadro - Deficiencia */
+	background-color:rgba(238.00000101327896, 244.0000006556511, 246.0000005364418, 1);
+	opacity:1;
+	border:0.5px solid rgba(0, 169.00000512599945, 231.00000143051147, 1);
+	width:260px;
+	height:220px;
+	position:absolute;
+	left:10px;;
+	top: 180px;
+	
+}
+.cls_015{/*Surdez*/
+	left: 10px;
+	top: 10;
+}
+.cls_015_1{
+	width:350px;
+	height:60px;
+	position:absolute;
+	left: 55px;
+	top: 10;
+}
+.cls_016{/*Surdocegueira */
+	left: 10px;
+	top: 30;
+}
+.cls_016_1{
+	width:350px;
+	height:60px;
+	position:absolute;
+	left: 55px;
+	top: 30;
+}
+.cls_017{/*Deficiência multipla*/
+	left: 10px;
+	top: 50;
+}
+.cls_017_1{
+	width:350px;
+	height:60px;
+	position:absolute;
+	left: 55px;
+	top: 50;
+}
+.cls_018{/*Baixa visão */
+	left: 10px;
+	top: 70;
+}
+.cls_018_1{
+	width:350px;
+	height:60px;
+	position:absolute;
+	left: 55px;
+	top: 70;
+}
+.cls_019{/* Cegueira */
+	left: 10px;
+	top: 90;
+}
+.cls_019_1{
+	width:350px;
+	height:60px;
+	position:absolute;
+	left: 55px;
+	top: 90;
+}
+.cls_020{/* Deficiência Auditiva */
+	left: 10px;
+	top: 110;
+}
+.cls_020_1{
+	width:350px;
+	height:60px;
+	position:absolute;
+	left: 55px;
+	top: 110;
+}
+.cls_021{/* Deficiência física */
+	left: 10px;
+	top: 130;
+}
+.cls_021_1{
+	width:350px;
+	height:60px;
+	position:absolute;
+	left: 55px;
+	top: 130;
+}
+.cls_022{/* Deficiência Intelectual */
+	left: 10px;
+	top: 150;
+}
+.cls_022_1{
+	width:350px;
+	height:60px;
+	position:absolute;
+	left: 55px;
+	top: 150;
+}
+.cls_023{/* Transtorno do espectro autista */
+	left: 10px;
+	top: 170;
+}
+.cls_023_1{
+	width:350px;
+	height:60px;
+	position:absolute;
+	left: 55px;
+	top: 170;
+}
+.cls_024{/* Altas habilidades/superdoção */
+	left: 10px;
+	top: 190;
+}
+
+.cls_024_1{
+	width:350px;
+	height:200px;
+	position:absolute;
+	left: 55px;
+	top: 190;
+}
+
+
+.cls_025{/* Transtorno globais de desenvolvimento */
+	top: 420px;
+	left: 10px;
+	position: absolute;
+}
+.cls_025_1{
+	width:350px;
+	height:60px;
+	position:absolute;
+	left: 55px;
+	top: 225;
+}
+#dv_004{/*Quadro - Transtorno globais de desenvolvimento */
+	background-color:rgba(238.00000101327896, 244.0000006556511, 246.0000005364418, 1);
+	opacity:1;
+	border:0.5px solid rgba(0, 169.00000512599945, 231.00000143051147, 1);
+	width:310px;
+	height:100px;
+	position:absolute;
+	left:10px;;
+	top: 440px
+	
+}
+
+.cls_026{/* Tipo de atendimento educacional especializado: */
+	top: 160px;
+	left: 300px;
+	position: absolute;
+}
+.cls_027{
+	left: 10px;
+	top: 225;
+	
+}
+.cls_027_1{
+	width:350px;
+	height:60px;
+	position:absolute;
+	left: 55px;
+	top: 225;	
+}
+.cls_029{
+	left: 10px;
+	top: 245;
+}
+.cls_029_1{
+	width:350px;
+	height:60px;
+	position:absolute;
+	left: 55px;
+	top: 245;
+}
+
+
+.cls_032_1{/*Altas habilidades/Superdotação*/
+	position:absolute;
+	left: 10px;
+	top: 10;	
+	
+}
+.cls_033{
+	position:absolute;
+	left: 270px;
+	top: 10;	
+	
+}
+.cls_033_1{/* Sim */
+	position:absolute;
+	left: 325px;
+	top: 10;
+	
+}
+
+.cls_034{
+	position:absolute;
+	left: 400px;
+	top: 10;	
+}
+
+.cls_034_1{/* Não */
+	position:absolute;
+	left: 460px;
+	top: 10;
+}
+
+.cls_035_1{/*Transtorno do espectro autista*/
+	position:absolute;
+	left: 10px;
+	top: 50;
+	
+}
+
+.cls_035{
+	position:absolute;
+	left: 270px;
+	top: 45;
+	
+}
+
+.cls_036_1{/* Sim */
+	position:absolute;
+	left: 325px;
+	top: 45;
+	
+}
+
+.cls_037{
+	position:absolute;
+	left: 400px;
+	top: 45;
+}
+.cls_037_1{/*Não*/
+	position:absolute;
+	left: 460px;
+	top: 45;
+}
+#dv_005{/*Quadro - Tipo de atendimento educacional especializado: */
+	background-color:rgba(238.00000101327896, 244.0000006556511, 246.0000005364418, 1);
+	opacity:1;
+	border:0.5px solid rgba(0, 169.00000512599945, 231.00000143051147, 1);
+	width:390px;
+	height:250px;
+	position:absolute;
+	left: 300px;
+	top: 180px;
+	
+}
+
+.cls_028{/* Recurso necessários para uso do(a) aluno(a) em sala de aula e para participação em avaliação INEP (SAEB)*/
+	width:380px;
+	height:100px;
+	top: 143px;
+	left: 720px;
+	position: absolute;
+}
+
+#dv_006{/* Quadro - Recurso necessários para uso do(a) aluno(a) em sala de aula e para participação em avaliação INEP (SAEB)*/
+	background-color:rgba(238.00000101327896, 244.0000006556511, 246.0000005364418, 1);
+	opacity:1;
+	border:0.5px solid rgba(0, 169.00000512599945, 231.00000143051147, 1);
+	width:410px;
+	height:280px;
+	position:absolute;
+	left: 720px;
+	top: 180px;
+	
+}
+
+#dv_007{/* Altas Habilidades*/
+	background-color:rgba(238.00000101327896, 244.0000006556511, 246.0000005364418, 1);
+	opacity:1;
+	border:0.5px solid rgba(0, 169.00000512599945, 231.00000143051147, 1);
+	width:510px;
+	height:85px;
+	position:absolute;
+	left: 620px;
+	top: 480px;
+	
+}
+#e295_1943 { /*Barra botao Salvar/Cancelar*/
+	font-family: Roboto;
+	opacity:1;
+	width:423px;
+	height:25px;
+	position:absolute;
+	left:350px;
+	top:600px;
+}
+.cls_29 input:hover{
+	cursor:pointer;
+	background-color: #370707;
+	transition: 0.5s;
+}
+.cls_Bcanc01 { /*BotÃ£o Salvar*/
+	font-family: Roboto;
+	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+	background-color:rgba(149.81249392032623, 149.81249392032623, 149.81249392032623, 1);
+	color:rgba(255, 255, 255, 1);
+	opacity:1;
+	border:1px solid rgba(138.1250050663948, 138.1250050663948, 138.1250050663948, 1);
+	width:115px;
+	height:22px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	border-radius:8px;
+}
+
+.cls_Bcanc02 { /*Cancelar*/
+	font-family: Roboto;
+	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+	background-color:rgba(149.81249392032623, 149.81249392032623, 149.81249392032623, 1);
+	opacity:1;
+	color:rgba(255, 255, 255, 1);
+	border:1px solid rgba(138.1250050663948, 138.1250050663948, 138.1250050663948, 1);
+	width:115px;
+	height:22px;
+	position:absolute;
+	left:306px;
+	top:0px;
+	border-radius:8px;
+}

@@ -1,0 +1,1401 @@
+<head>
+  <link rel="stylesheet" href="cadastroescola.css">
+  <script src="https://use.fontawesome.com/62e43a72a9.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script>
+   function hablilitarcampo(campo01) {
+     campo01.nextElementSibling.disabled = !campo01.checked;
+   }
+ </script>
+</head>
+
+<nav class="nav_tabs">
+ <ul>
+  <li>
+   <input type="radio" id="tab1" class="rd_tab" name="tabs" checked>
+   <label for="tab1" class="tab_label">DADOS GERAIS</label>
+         <div class="tab-content">
+          <div class="divisoria">
+            <div class="quadro1-inf-gerais">                      
+             <section class="titulo1">
+               Informações Gerais:
+             </section>
+             <table style="width:100%">
+              <tr>
+                <td>Secretaria: Secretaria municipal de educação:</td>
+                <td><strong>Secretaria municipal de educação - São Luis</strong></td>
+                <td>Sigla:</td>
+                <td>SEMED</td>
+              </tr>
+              <tr>
+                <td>Núcleo:</td>
+                <td><input></td>
+                <td>Sigla:</td>
+                <td>PMSL</td>
+              </tr>
+              <tr>
+                <td>Codigo INEP:</td>
+                <td><input></td>
+                <td>Tipo:</td>
+                <td><select>
+                  <option>Polo</option>
+                  <option>Anexo</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>Nome da Escola:</td>
+              <td><input></td>
+              <td>Dependência Administrativa:</td>
+              <td><select>
+                <option>Municipal</option>
+                <option>Estadual</option>
+                <option>Federal</option>
+                <option>Privada</option>
+              </select></td>
+            </tr>
+            <tr>
+              <td>CNPJ da unidade:</td>
+              <td><input></td>
+              <td>Regulamentação/Autorização:</td>
+              <td>
+                <select>
+                  <option>-Selecione-</option>
+                  <option>Em tramitação</option>
+                  <option>Sim</option>
+                  <option>Não</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>Situação de Funcionamento:</td>
+              <td><select>
+                <option>-Selecione-</option>
+                <option>Em funcionamento</option>
+                <option>Paralisada</option>
+                <option>Extinta</option>
+              </select></td>
+              <td>Zona:</td>
+              <td><select>
+                <option>-Selecione-</option>
+                <option>Rural</option>
+                <option>Urbana</option>
+              </select></td>
+            </tr>
+          </table>    
+        </div>                    
+      </div> 
+      <div class="divisoria">
+        <div class="quadro-endereco">
+          <section class="titulo1">
+            Endereço
+          </section>
+          <table style="width:100%">
+            <tr>
+              <td>CEP:</td>
+              <td><input></td>
+              <td>Distrito:</td>
+              <td><input></td>
+              <td>UF:</td>
+              <td><input></td>
+            </tr>
+            <tr>
+              <td>Logradouro/Rua:</td>
+              <td><input></td>
+              <td>Número:</td>
+              <td><input></td>
+              <td>Latitude</td>
+              <td> <input type="text" value=" 911232130' " disabled></td>
+            </tr>
+            <tr>
+              <td>Complemento:</td>
+              <td><input></td>
+              <td>Bairro:</td>
+              <td><input></td>
+              <td>Longitude</td>
+              <td> 
+                <input type="text" value="  23211234422' " disabled>
+              </td>
+            </tr>
+            <tr>
+              <td>Município:</td>
+              <td><input></td>
+            </tr>
+          </table>  
+        </div>
+      </div>
+      <div class="divisoria">
+        <div class="quadro-contato">
+          <section class="titulo1">
+            Contato
+          </section>
+          <table style="width:100%">
+            <tr>
+              <td>Telefone Fixo::</td>
+              <td><input></td>
+              <td>Fax:</td>
+              <td><input></td>
+            </tr>
+            <tr>
+              <td>Telefone Celular::</td>
+              <td><input></td>
+              <td>Número:</td>
+              <td><input></td>
+            </tr>
+            <tr>
+            </table>       
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+ <input type="radio" name="tabs" class="rd_tab" id="tab2">
+ <label for="tab2" class="tab_label">DADOS DOS GESTORES</label>
+           <div class="tab-content">
+             <div class="divisoria">
+              <div class="quadro1-inf-gerais">                      
+               <section class="titulo3">
+                 Diretor Geral:
+               </section>
+               <table style="width:100%">
+                <tr>
+                  <td>Nome do Diretor:</td>
+                  <td><input size="50"></td>
+                  <td>Email:</td>
+                  <td><input></td> 
+                </tr>
+                <tr>
+                  <td>CPF do Diretor:</td>
+                  <td><input></td>
+                  <td>Situação Funcional:</td>
+                  <td>
+                    <select>
+                      <option>- Selecione -</option>
+                      <option>1- Concursado/Efetivo/Estável</option>
+                      <option>2- Contrato temporário</option>
+                      <option>3- Contrato terceirizado</option>
+                      <option>4- Contrato CLT</option>
+                    </select>                                                                                    
+                  </td>
+                </tr>
+                <tr>
+                </tr>
+                <tr>
+                  <td>Critério de acesso ao cargo/função:</td>
+                  <td>
+                    <select>
+                      <option>- Selecione -</option>
+                      <option>1- Exclusivamente	por	indicação/escolha	da gestão</option>
+                      <option>2- Processo	seletivo	qualificado	e escolha/nomeação da gestão</option>
+                      <option>3- Concurso público específico para o cargo de gestor escolar</option>
+                      <option>4- Exclusivamente por processo eleitoral com participação da comunidade escolar</option>
+                      <option>5- Processo seletivo qualificado e eleição com a participação da comunidade escolar</option>
+                      <option>6- Outros</option>         
+                    </select>
+                  </td>                       
+                </tr>
+              </table>    
+              <section class="titulo2">
+               Diretor Adjunto:
+             </section>
+             <table style="width:100%">
+              <tr>
+                <td>Nome do Diretor Adjunto:</td>
+                <td><input size="50"></td>
+                <td>Email:</td>
+                <td><input></td> 
+              </tr>
+              <tr>
+                <td>CPF do Diretor Adjunto:</td>
+                <td><input></td>
+                <td>Situação Funcional:</td>
+                <td>
+                  <select>
+                    <option>- selecione -</option>
+                    <option>1- Concursado/Efetivo/Estável</option>
+                    <option>2- Contrato temporário</option>
+                    <option>3- Contrato terceirizado</option>
+                    <option>4- Contrato CLT</option>
+                  </select>                                                                                    
+                </td>
+              </tr>
+              <tr>
+              </tr>
+              <tr>
+                <td>Critério de acesso ao cargo/função:</td>
+                <td>
+                  <select>
+                    <option>- selecione -</option>
+                    <option>1- Exclusivamente	por	indicação/escolha	da gestão</option>
+                    <option>2- Processo	seletivo	qualificado	e escolha/nomeação da gestão</option>
+                    <option>3- Concurso público específico para o cargo de gestor escolar</option>
+                    <option>4- Exclusivamente por processo eleitoral com participação da comunidade escolar</option>
+                    <option>5- Processo seletivo qualificado e eleição com a participação da comunidade escolar</option>
+                    <option>6- Outros</option>         
+                  </select>
+                </td> 
+              </tr>
+            </table>    
+            <section class="titulo2">
+             Coordenador Pedagógico:
+           </section>
+           <table style="width:100%">
+            <tr>
+              <td>Nome do Coordenador:</td>
+              <td><input size="50"></td>
+              <td>Situação Funcional:</td>
+              <td>
+                <select>
+                  <option>- selecione -</option>
+                  <option>1- Concursado/Efetivo/Estável</option>
+                  <option>2- Contrato temporário</option>
+                  <option>3- Contrato terceirizado</option>
+                  <option>4- Contrato CLT</option>
+                </select>                                                                                    
+              </td>
+            </tr>
+            <tr>
+              <td>CPF do Coordenador:</td>
+              <td><input></td>
+              <td> Carga horária:</td>
+              <td><input size="3">
+              </td>
+            </tr>
+            <tr>
+              <td>Email:</td>
+              <td><input></td>
+              <td>Turno:</td>
+              <td>
+                <select>
+                  <option>- Selecione -</option>
+                  <option>-Matutino-</option>
+                  <option>-Vespertino</option>
+                  <option>-Noturno</option>
+                  <option>-Integral</option>
+                </select>                                                                                    
+              </td>
+            </tr>
+            <tr>
+              <td>Critério de acesso ao cargo/função:</td>
+              <td>
+                <select>
+                  <option>- selecione -</option>
+                  <option>1- Exclusivamente	por	indicação/escolha	da gestão</option>
+                  <option>2- Processo	seletivo	qualificado	e escolha/nomeação da gestão</option>
+                  <option>3- Concurso público específico para o cargo de gestor escolar</option>
+                  <option>4- Exclusivamente por processo eleitoral com participação da comunidade escolar</option>
+                  <option>5- Processo seletivo qualificado e eleição com a participação da comunidade escolar</option>
+                  <option>6- Outros</option>         
+                </select>
+              </td> 
+            </tr>
+          </table>    
+          <section class="titulo2">
+           Coordenador de Anexo:
+          </section>
+          <table style="width:100%">
+            <tr>
+              <td>Nome do Coordenador de Anexo:</td>
+              <td><input size="50"></td>
+              <td>Situação Funcional:</td>
+              <td>
+                <select>
+                  <option>- selecione -</option>
+                  <option>1- Concursado/Efetivo/Estável</option>
+                  <option>2- Contrato temporário</option>
+                  <option>3- Contrato terceirizado</option>
+                  <option>4- Contrato CLT</option>
+                </select>                                                                                    
+              </td>
+            </tr>
+            <tr>
+              <td>CPF do Coordenador de Anexo:</td>
+              <td><input></td>
+              <td> Carga horária:</td>
+              <td><input size="3">
+              </td>
+            </tr>
+            <tr>
+              <td>Email:</td>
+              <td><input></td>
+              <td>Turno:</td>
+              <td>
+                <select>
+                  <option>- Selecione -</option>
+                  <option>-Matutino-</option>
+                  <option>-Vespertino</option>
+                  <option>-Noturno</option>
+                  <option>-Integral</option>
+                </select>                                                                                    
+              </td>
+            </tr>
+            <tr>
+              <td>Critério de acesso ao cargo/função:</td>
+              <td>
+                <select>
+                  <option>- selecione -</option>
+                  <option>1- Exclusivamente	por	indicação/escolha	da gestão</option>
+                  <option>2- Processo	seletivo	qualificado	e escolha/nomeação da gestão</option>
+                  <option>3- Concurso público específico para o cargo de gestor escolar</option>
+                  <option>4- Exclusivamente por processo eleitoral com participação da comunidade escolar</option>
+                  <option>5- Processo seletivo qualificado e eleição com a participação da comunidade escolar</option>
+                  <option>6- Outros</option>         
+                </select>
+              </td> 
+            </tr>
+          </table>    
+          <section class="titulo2">
+           Secretário Escolar:
+          </section>
+          <table style="width:100%">
+            <tr>
+              <td>Nome do Secretário Escolar:</td>
+              <td><input size="50"></td>
+              <td>Situação Funcional:</td>
+              <td>
+                <select>
+                  <option>- selecione -</option>
+                  <option>1- Concursado/Efetivo/Estável</option>
+                  <option>2- Contrato temporário</option>
+                  <option>3- Contrato terceirizado</option>
+                  <option>4- Contrato CLT</option>
+                </select>                                                                                    
+              </td>
+            </tr>
+            <tr>
+              <td>CPF do Secretário Escolar:</td>
+              <td><input></td>
+              <td> Carga horária:</td>
+              <td><input size="3">
+              </td>
+            </tr>
+            <tr>
+              <td>Email:</td>
+              <td><input></td>
+              <td>Turno:</td>
+              <td>
+                <select>
+                  <option>- Selecione -</option>
+                  <option>-Matutino-</option>
+                  <option>-Vespertino</option>
+                  <option>-Noturno</option>
+                  <option>-Integral</option>
+                </select>                                                                                    
+              </td>
+            </tr>
+            <tr>
+              <td>Critério de acesso ao cargo/função:</td>
+              <td>
+                <select>
+                  <option>- selecione -</option>
+                  <option>1- Exclusivamente	por	indicação/escolha	da gestão</option>
+                  <option>2- Processo	seletivo	qualificado	e escolha/nomeação da gestão</option>
+                  <option>3- Concurso público específico para o cargo de gestor escolar</option>
+                  <option>4- Exclusivamente por processo eleitoral com participação da comunidade escolar</option>
+                  <option>5- Processo seletivo qualificado e eleição com a participação da comunidade escolar</option>
+                  <option>6- Outros</option>         
+                </select>
+              </td> 
+            </tr>
+          </table>    
+          <section class="titulo2">
+           Diretor(a) de Núcleo:
+          </section>
+          <table style="width:100%">
+            <tr>
+              <td>Nome do(a) Diretor(a) de Núcleo:</td>
+              <td><input size="50"></td>
+              <td>Situação Funcional:</td>
+              <td>
+                <select>
+                  <option>- selecione -</option>
+                  <option>1- Concursado/Efetivo/Estável</option>
+                  <option>2- Contrato temporário</option>
+                  <option>3- Contrato terceirizado</option>
+                  <option>4- Contrato CLT</option>
+                </select>                                                                                    
+              </td>
+            </tr>
+            <tr>
+              <td>CPF do(a) Diretor(a) de Núcleo:</td>
+              <td><input></td>
+              <td> Carga horária:</td>
+              <td><input size="3">
+              </td>
+            </tr>
+            <tr>
+              <td>Email:</td>
+              <td><input></td>
+              <td>Turno:</td>
+              <td>
+                <select>
+                  <option>- Selecione -</option>
+                  <option>-Matutino-</option>
+                  <option>-Vespertino</option>
+                  <option>-Noturno</option>
+                  <option>-Integral</option>
+                </select>                                                                                    
+              </td>
+            </tr>
+            <tr>
+              <td>Critério de acesso ao cargo/função:</td>
+              <td>
+                <select>
+                  <option>- selecione -</option>
+                  <option>1- Exclusivamente	por	indicação/escolha	da gestão</option>
+                  <option>2- Processo	seletivo	qualificado	e escolha/nomeação da gestão</option>
+                  <option>3- Concurso público específico para o cargo de gestor escolar</option>
+                  <option>4- Exclusivamente por processo eleitoral com participação da comunidade escolar</option>
+                  <option>5- Processo seletivo qualificado e eleição com a participação da comunidade escolar</option>
+                  <option>6- Outros</option>         
+                </select>
+              </td> 
+            </tr>
+          </table>    
+          </div>          
+          </div>
+          </div>
+</li>
+<li>
+ <input type="radio" name="tabs" class="rd_tab" id="tab3">
+ <label for="tab3" class="tab_label">INFRAESTRUTURA</label>
+           <div class="tab-content">
+             <div class="divisoria">
+              <div class="quadro-1">                      
+               <section class="titulo1">
+                 Estrutura da escola:
+               </section>
+               <table style="width:100%">
+                <tr>
+                  <td>Local de funcionamento da escola:</td>
+                  <td>
+                    <select>
+                      <option>-selecione-</option>
+                      <option>-Unidade de internação socioeducativo-</option>
+                    </select>  
+                  </td>
+                </tr>
+                <tr>
+                  <td>Forma de ocupação do prédio escolar:</td>
+                  <td>  <select>
+                    <option>-selecione-</option>
+                    <option>-Alugado-</option>
+                    <option>-Próprio-</option>
+                  </select></td>
+                </tr>
+              </table>    
+            </div>
+            <div class="quadro-2">                      
+             <section class="titulo1">
+               Predio compartilhado:
+             </section>
+             <table style="width:100%">
+              <tr>
+                <div class="prediocomp">
+                  Caso o prédio seja compartilhado adicione o(s) código(s) da(s) escola(s).
+                </div>
+                <div id="camposcodigo">
+                  <button type="submit"><i class="fa fa-plus-circle" aria-hidden="true"></i>Adicionar</button>
+                  <input type="text" disabled/>
+                </div>
+              </tr>
+            </table>  
+          </div>
+          </div>  
+          <div class="divisoria">
+            <div class="quadro-dependencia">                      
+             <section class="titulo1">
+               Dependência existentes na escola:               
+             </section>
+             <div id="campodependencia">
+               <div>
+                 <input type="checkbox">
+                 <label>Almoxarifado</label>
+               </div>
+               <div>
+                 <input type="checkbox">
+                 <label>Área verde</label>
+               </div>  
+               <div>
+                 <input type="checkbox">
+                 <label>Auditório</label>
+               </div>
+               <div>
+                <input type="checkbox">
+                <label>Biblioteca</label>
+              </div>
+              <div>
+               <input type="checkbox">
+               <label>Cozinha</label>
+             </div>
+             <div>
+               <input type="checkbox">
+               <label>Banheiro</label>
+             </div>
+             <div>
+               <input type="checkbox">
+               <label>Despensa</label>
+             </div>  
+             <div>
+               <input type="checkbox">
+               <label>Piscina</label>
+             </div>
+             <div>
+              <input type="checkbox">
+              <label>Refeitório</label>
+            </div>
+            <div>
+             <input type="checkbox">
+             <label>Pátio coberto</label>
+           </div>
+           <div>
+             <input type="checkbox">
+             <label>Pátio descoberto</label>
+           </div>  
+           <div>
+             <input type="checkbox">
+             <label>Sala/ateliê de artes</label>
+           </div>
+           <div>
+            <input type="checkbox">
+            <label>Sala de música/coral</label>
+          </div>                                      
+          <div>
+           <input type="checkbox">
+           <label>Sala/estúdio de dança</label>
+          </div>
+          <div>
+           <input type="checkbox">
+           <label>Sala de diretoria</label>
+          </div>  
+          <div>
+           <input type="checkbox">
+           <label>Sala de leitura</label>
+          </div>
+          <div>
+            <input type="checkbox">
+            <label>Sala de professores</label>
+          </div>                        
+          <div>
+           <input type="checkbox">
+           <label>Sala de secretaria</label>
+          </div>
+          <div>
+           <input type="checkbox">
+           <label>Banheiro adequado à educação infantil</label>
+          </div>  
+          <div>
+           <input type="checkbox">
+           <label>Banheiro acessível(para Deficiente Físico)</label>
+          </div>
+          <div>
+            <input type="checkbox">
+            <label>Banheiro exclusivo para os funcionários</label>
+          </div>
+          <div>
+           <input type="checkbox">
+           <label>Banheiro ou vestiário com chuveiro</label>
+          </div>
+          <div>
+           <input type="checkbox">
+           <label>Quadra de esportes coberta</label>
+          </div>
+          <div>
+           <input type="checkbox">
+           <label>Quadra de esportes descoberta</label>
+          </div>
+          <div>
+           <input type="checkbox">
+           <label>Laboratório de informática</label>
+          </div>
+          <div>
+           <input type="checkbox">
+           <label>Laboratório de ciências</label>
+          </div>
+          <div>
+           <input type="checkbox">
+           <label>Dormitório de professor</label>
+          </div>
+          <div>
+           <input type="checkbox">
+           <label>Dormitório de aluno</label>
+          </div>
+          <div>
+           <input type="checkbox">
+           <label>Sala multiuso (música, dança e artes)</label>
+          </div>
+          <div>
+           <input type="checkbox">
+           <label>Viveiro/criação de animais</label>
+          </div>
+          <div>
+           <input type="checkbox">
+           <label>Terreirão (área para prática recreativa)</label>
+          </div>
+          <div>
+           <input type="checkbox">
+           <label>Sala de recursos multifuncionais para Atendimento Educacional Especializado (AEE)</label>
+          </div>
+          <div>
+           <input type="checkbox">
+           <label>Nenhuma das dependências relacionadas</label>
+          </div>
+          </div>
+          <section class="titulo1">
+           Recursos de acessibilidade:               
+          </section>
+          <div id="campos02col">
+           <div>
+             <input type="checkbox">
+             <label>Elevador</label>
+           </div>
+           <div>
+             <input type="checkbox">
+             <label>Pisos táteis</label>
+           </div>  
+           <div>
+             <input type="checkbox">
+             <label>Rampas</label>
+           </div>
+           <div>
+            <input type="checkbox">
+            <label>Sinalização sonora</label>
+          </div>
+          <div>
+           <input type="checkbox">
+           <label>Sinalização tátil (piso/paredes)</label>
+          </div>
+          <div>
+           <input type="checkbox">
+           <label>Sinalização visual (piso/paredes)</label>
+          </div>
+          <div>
+           <input type="checkbox">
+           <label>Corrimão e guarda-corpos</label>
+          </div>  
+          <div>
+           <input type="checkbox">
+           <label>Portas com vão livre de no mínimo 80 cm</label>
+          </div>
+          <div>
+            <input type="checkbox">
+            <label>Nenhum	dos	recursos de acessibilidade listados</label>
+          </div>
+          </div>  
+          </div>
+          <div class="quadro-agua">                      
+           <section class="titulo1">
+             Abastecimento de água:                
+           </section>
+           <div id="campos01">
+             <div>
+               <input type="checkbox">
+               <label>Rede pública</label>
+             </div>
+             <div>
+               <input type="checkbox">
+               <label>Poço artesiano</label>
+             </div>  
+             <div>
+               <input type="checkbox">
+               <label>Cacimba; Cisterna; Poço</label>
+             </div>
+             <div>
+              <input type="checkbox">
+              <label>Fonte; Rio; Igarapé; Córrego</label>
+            </div>
+            <div>
+             <input type="checkbox">
+             <label>Não existe abastecimento de água</label>
+           </div>
+          </div>
+          <section class="titulo1">
+           Esgotamento sanitário:                
+          </section>
+          <div id="campos01">
+           <div>
+             <input type="checkbox">
+             <label>Rede pública</label>
+           </div>
+           <div>
+             <input type="checkbox">
+             <label>Fossa séptica</label>
+           </div>  
+           <div>
+             <input type="checkbox">
+             <label>Fossa rudimentar/comum</label>
+           </div>
+           <div>
+            <input type="checkbox">
+            <label>Não há esgotamento sanitário</label>
+          </div>
+          </div>
+
+          <section class="titulo1">
+           Fonte de energia elétrica:                
+          </section>
+          <div id="campos01">
+           <div>
+             <input type="checkbox">
+             <label>Rede pública</label>
+           </div>
+           <div>
+             <input type="checkbox">
+             <label>Gerador movido à combustível fóssil</label>
+           </div>  
+           <div>
+             <input type="checkbox">
+             <label>Fonte de energia renováveis ou alternativas</label>
+           </div>
+           <div>
+            <input type="checkbox">
+            <label>Não há energia elétrica</label>
+          </div>                                      
+          </div>
+
+          <section class="titulo1">
+           Tratamento de lixo/resíduos:                
+          </section>
+          <div id="campos01">
+           <div>
+             <input type="checkbox">
+             <label> Separação do lixo/resíduos</label>
+           </div>
+           <div>
+             <input type="checkbox">
+             <label>Reaproveitamento/reutilização</label>
+           </div>  
+           <div>
+             <input type="checkbox">
+             <label>Reciclagem</label>
+           </div>
+           <div>
+            <input type="checkbox">
+            <label>Não há tratamento</label>
+          </div>                        
+          </div>
+
+          <section class="titulo1">
+           Destinação do lixo:                
+          </section>
+          <div id="campos01">
+           <div>
+             <input type="checkbox">
+             <label>Serviço de coleta</label>
+           </div>
+           <div>
+             <input type="checkbox">
+             <label>Queima</label>
+           </div>  
+           <div>
+             <input type="checkbox">
+             <label>Enterra</label>
+           </div>
+           <div>
+            <input type="checkbox">
+            <label>Leva para destinação final licenciada pelo poder público</label>
+          </div>
+          <div>
+           <input type="checkbox">
+           <label>Descarta em outras áreas</label>
+          </div>
+          </div>
+          </div>
+          </div>      
+          <div class="divisoria">
+            <div class="quadrosalas">                      
+             <section class="titulo1">
+               Salas:               
+             </section>
+             <div id="campos01">
+              <table>
+                <tr>
+                  <td>Número de salas de aula utilizadas na escola    dentro do prédio escolar:</td>
+                  <td><input type="text"></td>
+                </tr>
+                <tr>
+                  <td>Número de salas de aula utilizadas na escola fora do prédio escolar:</td>
+                  <td><input type="text"></td>
+                </tr>
+                <tr>
+                  <td>Número de salas de aula com acessibilidade para pessoas com deficiência ou mobilidade reduzida:</td>
+                  <td><input type="text"></td> 
+                </tr>
+                <tr>
+                  <td>Número de salas de aula climatizadas:</td>
+                  <td><input type="text"></td> 
+                </tr>
+              </table>  
+            </div>
+            <section class="titulo1">
+              Infraestrutura Organizacional        
+            </section>
+            <div id="campos01">  
+             <table style="width:100%">
+              <tr>
+                <td bgcolor="#DFDFDF">Esfera administrativa do conselho ou órgão responsável pela Regulamentação/Autorização:</td>
+                <td bgcolor="#DFDFDF">
+                  <select>
+                    <option>-Selecione-</option>
+                    <option>-Municipal-</option>
+                    <option>-Estadual-</option>
+                    <option>-Federal</option>
+                  </select>  
+                </td>
+              </tr>
+              <tr>
+                <td>Escola abre aos finais de semana para a comunidade:</td>
+                <td>  <select>
+                  <option>-Selecione-</option>
+                  <option>-Sim-</option>
+                  <option>-Não-</option>
+                </select></td>
+              </tr>
+              <tr>
+                <td bgcolor="#DFDFDF">Escola com proposta pedagógica de formação por alternância:</td>
+                <td bgcolor="#DFDFDF">  <select>
+                  <option>-Selecione-</option>
+                  <option>-Sim-</option>
+                  <option>-Não-</option>
+                </select></td>
+              </tr>
+              <tr>
+                <td>Escola conveniada com poder público:</td>
+                <td>  <select>
+                  <option>-Selecione-</option>
+                  <option>-Sim-</option>
+                  <option>-Não-</option>
+                </select></td>
+              </tr>
+              <tr>
+                <td bgcolor="#DFDFDF">Órgão a que a escola pública está vinculada:</td>
+                <td bgcolor="#DFDFDF">  <select>
+                  <option>-Selecione-</option>
+                  <option>-Sec. de Educação-</option>
+                  <option>-Sec. Seg. Pública-</option>
+                  <option>-Sec. da Saúde-</option>
+                </select></td>
+              </tr>
+              <tr>
+                <td>Categoria de escola privada:</td>
+                <td>  <select>
+                  <option>-Selecione-</option>
+                  <option>-Confessional-</option>
+                  <option>-Comunitária-</option>
+                  <option>-Particular-</option>
+                  <option>-Filantrópica-</option>
+                </select></td>
+              </tr>
+
+              <tr>
+               <td bgcolor="#DFDFDF">Escola cede espaço para turmas do Brasil Alfabetizado:</td>
+               <td bgcolor="#DFDFDF"> 
+                <select>
+                  <option>-Selecione-</option>
+                  <option>-Sim-</option>
+                  <option>-Não-</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>Mantenedora da escola privada:</td>
+              <td>        
+                <select>
+                  <option>-Selecione-</option>
+                  <option>-Empresa, grupos empresariais do setor privado ou pessoa física-</option>
+                  <option>-Instituições sem fins lucrativos-</option>
+                  <option>-Organização não governamental (ONG) internacional ou nacional;-</option>
+                  <option>-Organização da Sociedade Civil de Interesse Público (OSCIP)- </option>
+                  <option>-Sindicatos de trabalhadores ou patronais, associações, cooperativas-</option>
+                  <option>-Sistema S(Sesi, Senai, Sesc, outros)-</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+             <td bgcolor="#DFDFDF">Localização diferenciada:</td>
+             <td bgcolor="#DFDFDF">
+               <select>
+                <option>-Não está em área de localização diferenciada-</option>
+                <option>-Área remanescente de quilombos-</option>
+                <option>-Terra indígena-</option>
+                <option>-Área de assentamento</option>
+              </select>  
+            </td>
+          </tr>        
+          </table>        
+          </div>  
+          </div>
+          </div>
+          </div>
+</li>
+<li>
+ <input type="radio" name="tabs" class="rd_tab" id="tab4">
+ <label for="tab4" class="tab_label">EQUIPAMENTO</label>
+           <div class="tab-content">
+            <div class="divisoria">
+              <div class="quadro-1">                      
+               <section class="titulo1">
+                 Equipamentos existentes na escola para uso técnico e administrativo:
+               </section>
+               <div class="alinhamento1">
+                <table style="width:100%">
+                  <tr>
+                    <td>Quantidade de Antenas Parabólica:</td>
+                    <td><input type="text"></td>
+                  </tr>
+                  <tr>
+                    <td>Quantidade de computadores:</td>
+                    <td><input type="text"></td>
+                  </tr>
+                  <tr>
+                    <td>Quantidade de Copiadoras:</td>
+                    <td><input type="text"></td>
+                  </tr>
+                  <tr>
+                    <td>Quantidade de Impressoras:</td>
+                    <td><input type="text"></td>
+                  </tr>
+                  <tr>
+                    <td>Quantidade de impressoras multifuncionais:</td>
+                    <td><input type="text"></td>
+                  </tr>
+                  <tr>
+                    <td>Quantidade de Scanner:</td>
+                    <td><input type="text"></td>
+                  </tr>
+                </table>  
+              </div>
+              <section class="titulo1">
+               Acesso à internet:                
+             </section>
+             <div class="alinhamento1">
+               <div>
+                 <input type="checkbox">
+                 <label>Para uso dos alunos</label>
+               </div>
+               <div>
+                 <input type="checkbox">
+                 <label>Para uso administrativo</label>
+               </div>  
+               <div>
+                 <input type="checkbox">
+                 <label>Para	uso	nos	processos de ensino	e aprendizagem</label>
+               </div>
+               <div>
+                <input type="checkbox">
+                <label>Para uso da comunidade</label>
+              </div>
+              <div>
+               <input type="checkbox">
+               <label>Não possui acesso à internet</label>
+             </div>
+           </div>
+          </div>
+          <div class="quadro-2">                      
+            <section class="titulo1">
+              Quantidade de equipamentos para o processo de ensino e aprendizagem:
+            </section>
+            <table style="width:100%">
+              <tr>
+                <td>Aparelho de DVD/Blu-ray:</td>
+                <td><input type="text"></td>
+              </tr>
+              <tr>
+                <td>Quantidade de Aparelhos de som:</td>
+                <td><input type="text"></td>
+              </tr>
+              <tr>
+                <td>Quantidade de Aparelhos de Televisão:</td>
+                <td><input type="text"></td>
+              </tr>
+              <tr>
+                <td>Lousa digital:</td>
+                <td><input type="text"></td>
+              </tr>
+              <tr>
+                <td>Projetor Multimídia (Data show):</td>
+                <td><input type="text"></td>
+              </tr>
+            </table>    
+            <section class="titulo1">
+              Quantidade de computadores em uso pelos alunos
+            </section>
+
+            <table style="width:100%">
+              <tr>
+                <td>Computadores de mesa (desktop):</td>
+                <td><input type="text"></td>
+              </tr>
+              <tr>
+                <td>Computadores portáteis:</td>
+                <td><input type="text"></td>
+              </tr>
+              <tr>
+                <td>Tablets:</td>
+                <td><input type="text"></td>
+              </tr>
+            </table>    
+
+            <section class="titulo1">
+             Rede e Internet:               
+           </section>
+           <div class="alinhamento1">
+            <table>
+              <tr>
+                <td>Possui Internet Banda Larga?</td>
+                <td> 
+                  <select>
+                    <option>-Selecione-</option>
+                    <option>-Sim-</option>
+                    <option>-Não-</option>
+                  </select> 
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Rede local de interligação de computadores
+                </td>
+                <td>
+                  <select>
+                    <option>-Selecione-</option>
+                    <option>-A cabo-</option>
+                    <option>-Wireless-</option>
+                    <option>-A cabo e Wireless-</option>
+                    <option>-Não há rede local-</option>
+                  </select>
+                </td>
+              </tr>
+            </table>  
+          </div>
+          </div>
+          </div> 
+
+          <div class="quadro-3">
+            <section class="titulo1">
+             Equipamentos para acesso a internet:               
+           </section>
+           <div class="alinhamento1">
+            <table>
+              <tr>
+                <td>Computadores de mesa, portáteis e tablets próprio da escola (no laboratório de informática, biblioteca, sala de aula, etc.)</td>
+                <td> 
+                  <input type="checkbox">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  São utilizados também dispositivos pessoais na intituição (computadores portáteis, celulares, tablets, etc.)
+                </td>
+                <td> 
+                  <input type="checkbox">
+                </td>
+              </tr>
+            </table>  
+          </div>
+          </div>
+          </div>
+</li>
+<li>
+ <input type="radio" name="tabs" class="rd_tab" id="tab5">
+ <label for="tab5" class="tab_label">DADOS EDUCACIONAIS</label>
+           <div class="tab-content">
+            <div class="divisoria">
+              <div class="quadro-1">                      
+               <section class="titulo1">
+                Formas de organização do ensino:
+              </section>
+              <div class="alinhamento1">
+               <div>
+                 <input type="checkbox">
+                 <label>Série/Ano (séries anuais)</label>
+               </div>
+               <div>
+                 <input type="checkbox">
+                 <label>Períodos semestrais</label>
+               </div>  
+               <div>
+                 <input type="checkbox">
+                 <label>Ciclo(s) do Ensino Fundamental</label>
+               </div>
+               <div>
+                <input type="checkbox">
+                <label>Grupos não-seriados com base na idade ou competência (art. 23 LDB)</label>
+              </div>
+              <div>
+               <input type="checkbox">
+               <label>Módulos, Alternância regular de períodos de estudos (proposta pedagógica de formação por alternância: tempo-escola e tempo- comunidade)</label>
+             </div>     
+           </div>
+           <section class="titulo1">
+            Reserva de vagas por sistema de cota:                
+          </section>
+          <div class="alinhamento1">
+           <div>
+             <input type="checkbox">
+             <label>Autodeclarado preto, pardo ou indígena (PPI)</label>
+           </div>
+           <div>
+             <input type="checkbox">
+             <label>Pessoa com deficiência (PCD)</label>
+           </div>  
+           <div>
+             <input type="checkbox">
+             <label>Condição de Renda</label>
+           </div>
+           <div>
+            <input type="checkbox">
+            <label>Oriundo de escola pública</label>
+          </div>
+          <div>
+           <input type="checkbox">
+           <label>Outros grupos que não os listados</label>
+          </div>
+          <div>
+           <input type="checkbox">
+           <label>Sem reservas de vagas</label>
+          </div>
+          </div>
+          </div>
+
+          <div class="quadro-2"> 
+            <section class="titulo1">
+              Seleção:                
+            </section>
+            <div class="alinhamento1">
+             <table>
+              <tr>
+                <td>Escola faz exame de seleção para ingresso de alunos?</td>
+                <td> 
+                  <select>
+                    <option>-Selecione-</option>
+                    <option>-Sim-</option>
+                    <option>-Não-</option>
+                  </select> 
+                </td>
+              </tr>                                         
+            </table> 
+          </div>
+          <section class="titulo1">
+            Órgãos colegiados em funcionamento na escola:
+          </section>
+          <div class="alinhamento1">
+           <div>
+             <input type="checkbox">
+             <label>Associação de pais</label>
+           </div>
+           <div>
+             <input type="checkbox">
+             <label>Associação de pais e mestres</label>
+           </div>  
+           <div>
+             <input type="checkbox">
+             <label>Conselho escolar</label>
+           </div>
+           <div>
+            <input type="checkbox">
+            <label>Grêmio estudantil</label>
+          </div>
+          <div>
+           <input type="checkbox">
+           <label>Outros</label>
+          </div>
+          <div>
+           <input type="checkbox">
+           <label>Não há órgãos colegiados em funcionamento</label>
+          </div>
+          </div>                                
+          <section class="titulo1">
+            Educação indígena:               
+          </section>
+          <div class="alinhamento1">
+            <div class="alinhamento1">
+             <form class="form1">
+               <input type="radio"  name="gender">
+               <label>Sim</label>
+               <input type="radio" name="gender" >
+               <label>Não</label>
+             </form>
+             <form>
+               <label>Lingua Portuguesa:</label>
+               <input type="checkbox">
+             </form>
+             <label>Lingua indígena:</label>
+             <input type="checkbox" onchange="hablilitarcampo(this);">
+             <input placeholder="insira o código" type="text" disabled="true">
+           </div>
+          </div>
+          <section class="titulo1">
+            A escola possui site ou blog ou página em redes sociais  para comunicação institucional?                
+          </section>
+          <div class="alinhamento1">
+            <form class="form2" >
+             <input type="radio"  name="gender">
+             <label>Sim</label>
+             <input type="radio" name="gender" >
+             <label>Não</label>
+           </form>
+          </div>
+          </div>            
+          </div> 
+          <div class="quadro-3">
+            <section class="titulo1">
+              Instrumentos e materiais socioculturais e/ou pedagógicos em uso na escola para desenvolvimento de atividades de ensino aprendizagem
+            </section>
+            <div id="campos02col">
+             <div>
+               <input type="checkbox">
+               <label>Acervo multimídia</label>
+             </div>
+             <div>
+               <input type="checkbox">
+               <label>Instrumentos musicais para conjunto, banda/fanfarra e/ou aulas de música</label>
+             </div>  
+             <div>
+               <input type="checkbox">
+               <label>Materiais pedagógicos para a educação escolar indígena</label>
+             </div>
+             <div>
+              <input type="checkbox">
+              <label>Brinquedos para educação infantil</label>
+            </div>
+            <div>
+             <input type="checkbox">
+             <label>Jogos educativos</label>
+           </div>
+           <div>
+             <input type="checkbox">
+             <label>Materiais pedagógicos para a educação das relações étnicos raciais</label>
+           </div>
+           <div>
+             <input type="checkbox">
+             <label>Materiais para atividades culturais e artísticas</label>
+           </div>  
+           <div>
+             <input type="checkbox">
+             <label>Materiais pedagógicos para a educação do campo</label>
+           </div>
+           <div>
+            <input type="checkbox">
+            <label>Equipamento para amplificação e difusão de som/áudio</label>
+          </div>
+          <div>
+           <input type="checkbox">
+           <label>Materiais para prática desportiva e recreação</label>
+          </div>
+          <div>
+           <input type="checkbox">
+           <label>Conjunto de materiais científicos</label>
+          </div>  
+          </div>
+
+          <section class="titulo1">
+            O projeto político pedagógico ou a proposta pedagógica da escola (conforme art. 12 da LDB) foi atualizada nos últimos 12 meses até a data de referência?                
+          </section>
+          <div class="alinhamento1">
+           <table>
+            <tr>
+              <td> 
+                <select>
+                  <option>-Selecione-</option>
+                  <option>-Sim-</option>
+                  <option>-Não-</option>
+                </select> 
+              </td>
+            </tr>                                         
+          </table> 
+          </div>          
+          </div>
+          </div>
+</li>
+<li>
+ <input type="radio" name="tabs" class="rd_tab" id="tab6">
+ <label for="tab6" class="tab_label">RECURSOS HUMANOS</label>
+           <div class="tab-content">
+             <div class="divisoria">
+              <div class="quadro-3">                      
+               <section class="titulo1">
+                 Total de profissionais que atuam nas seguintes funções na escola:
+               </section>
+               <table style="width:100%">
+                <tr>
+                  <td>*Auxiliares de secretaria ou auxiliares administrativos, atendentes:</td>
+                  <td><input type="text" size="5"></td>
+                </tr>
+                <tr>
+                  <td  bgcolor="#DFDFDF">*Auxiliar de serviços gerais, porteiro(a), zelador(a), faxineiro(a), horticultor(a), jardineiro(a):</td>
+                  <td><input type="text" size="5"></td>
+                </tr>
+                <tr>
+                  <td>*Bibliotecário(a), auxiliar de biblioteca ou monitor(a) da sala de leitura: </td>
+                  <td><input type="text" size="5"></td>
+                </tr>
+                <tr>
+                  <td  bgcolor="#DFDFDF">*Coordenador(a) de turno/disciplinar:</td>
+                  <td><input type="text" size="5"></td>
+                </tr>
+                <tr>
+                  <td>*Nutricionista:</td>
+                  <td><input type="text" size="5"></td>
+                </tr>
+                <tr>
+                  <td  bgcolor="#DFDFDF">*Psicólogo(a) Escolar:</td>
+                  <td><input type="text" size="5"></td>
+                </tr>
+                <tr>
+                  <td>*Secretário(a) escolar:</td>
+                  <td><input type="text" size="5"></td>
+                </tr>
+                <tr>
+                  <td bgcolor="#DFDFDF">*Seguranças, guarda ou segurança patrimonial:</td>
+                  <td><input type="text" size="5"></td>
+                </tr>
+                <tr>
+                  <td>*Orientador(a) comunitário(a) ou assistente social:</td>
+                  <td><input type="text" size="5"></td>
+                </tr>
+                <tr>
+                  <td  bgcolor="#DFDFDF" >*Bombeiro(a) brigadista, profissionais de assistência à saúde (urgência e emergência), Enfermeiro(a), Técnico(a) de enfermagem e socorrista:</td>
+                  <td><input type="text" size="5"></td>
+                </tr>
+                <tr>
+                  <td>*Profissionais de preparação e segurança alimentar, cozinheiro(a), merendeira e auxiliar de cozinha:</td>
+                  <td><input type="text" size="5"></td>
+                </tr>
+                <tr>
+                  <td bgcolor="#DFDFDF">*Vice-diretor(a) ou diretor(a) adjunto(a), profissionais responsáveis pela gestão administrativa e/ou financeira:</td>
+                  <td><input type="text" size="5"></td>
+                </tr>
+                <tr>
+                  <td>*Técnicos(as), monitores(as), supervisores(as) ou auxiliares de laboratório(s), de apoio a tecnologias educacionais multimeios/multimídias eletrônico-digitais:</td>
+                  <td><input type="text" size="5"></td>
+                </tr>
+                <tr>
+                 <td bgcolor="#DFDFDF">*Profissionais de apoio e supervisão pedagógica: (pedagogo(a), coordenador(a), orientador(a) educacional, supervisor(a) escolar e coordenador(a) de área de ensino:</td>
+                 <td><input type="text" size="5"></td>
+               </tr>
+             </table>  
+           </div>
+          </div>
+          </div>
+</li>
+<li>
+ <input type="radio" name="tabs" class="rd_tab" id="tab7">
+ <label for="tab7" class="tab_label">PNAE / FNDE </label>
+         <div class="tab-content">
+           <div class="quadro-4">
+            <section class="titulo1">
+             Alimentação escolar:               
+           </section>
+           <div class="alinhamento1">
+            <form>
+             <input type="radio"  name="gender">
+             <label>Sim</label><br>
+             <input type="radio" name="gender" >
+             <label>Não</label><br>
+           </form>
+         </div>
+        </div>
+        </div>
+</li>
+</ul>
+</nav>

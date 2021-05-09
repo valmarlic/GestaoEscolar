@@ -1,0 +1,424 @@
+body {
+	background: #E5E5E5;
+	width: 80%;
+}
+#qd_freimeConteudo { /*Quadro - Freime de Conteúdo */
+	background-color: rgba(238.00000101327896, 244.0000006556511, 246.0000005364418, 1);
+	opacity: 1;
+	font-size:14px;
+	border: 0.5px solid rgba(0, 169.00000512599945, 231.00000143051147, 1);
+	width: 75%;
+	height: 580px;
+	position: absolute;
+	left: 5px;
+	top: 0px;
+}
+
+#dv_barraFormacaoSuperior { /* Formação Superior  */
+	background-color: rgba(179.56249594688416, 179.56249594688416, 179.56249594688416, 1);
+	text-align: center; opacity : 1;
+	border: 1px solid rgba(0, 86.00000247359276, 179.000004529953, 1);
+	width: 99.3%;
+	height:18px;
+	position: absolute;
+	opacity: 1; border : 1px solid rgba( 0, 86.00000247359276,
+	179.000004529953, 1); width : 99.3%; height : 22px; position : absolute;
+	left: 3px;
+}
+.cls_caso_1{/*caso 1*/
+	position:absolute;
+	height:18px;
+	font-family: Roboto;
+	z-index: 1;
+	top:10px;
+	left: 10px;
+}
+
+.cls_classeCurso{/*Classe Curso*/
+	position:absolute;
+	height:18px;
+	font-family: Roboto;
+	z-index: 1;
+	top:30px;
+	left: 25px;
+	
+}
+
+.cls_selectclasseCurso{/*Select Classe do Curso*/
+	width:350px;
+	height:18px;
+	position:absolute;
+	font-family: Roboto;
+	top:30px;
+	left: 200px;
+}
+.cls_nomeCurso{/*Nome do Curso*/
+	width:350px;
+	height:18px;
+	position:absolute;
+	font-family: Roboto;
+	top:60px;
+	left: 25px;
+}
+
+.cls_selectnomeCurso{/*Select nome do curso*/
+	width:350px;
+	height:18px;
+	position:absolute;
+	font-family: Roboto;
+	top:60px;
+	left: 200px;
+}
+.cls_Instituicao{/*Instituição*/
+	width:350px;
+	height:18px;
+	position:absolute;
+	font-family: Roboto;
+	top:90px;
+	left: 25px;
+}
+.cls_selectInstituicao{/*Select Instituição*/
+	width:260px;
+	height:18px;
+	position:absolute;
+	font-family: Roboto;
+	top:90px;
+	left: 200px;
+}
+.cls_inptCheboxIstNcadast{/*Input checkbox Instituição não cadastrada*/
+	width:22px;
+	height:18px;
+	position:absolute;
+	font-family: Roboto;
+	top:90px;
+	left: 480px;
+}
+.cls_InstNCadastrada{/*Instituição Não Cadastrada*/
+	width:260px;
+	height:18px;
+	position:absolute;
+	font-family: Roboto;
+	top:92px;
+	left: 530px;
+}
+.cls_SituaCaoCursoSuperior{/*Siuação do Curso Superior*/
+
+	width:260px;
+	height:18px;
+	position:absolute;
+	font-family: Roboto;
+	top:120px;
+	left: 25px;
+}
+.cls_selectSituaCaoCurSpior{/*Situação do Curso superior*/
+	width:180px;
+	height:18px;
+	position:absolute;
+	font-family: Roboto;
+	top:120px;
+	left: 220px;
+}
+.cls_AnoDInicio{/*Ano de início*/
+	width:200px;
+	height:18px;
+	position:absolute;
+	font-family: Roboto;
+	top:120px;
+	left: 430px;
+}
+.cls_inptAnoDInicio{/*Ano de Início*/
+	width:60px;
+	height:18px;
+	position:absolute;
+	font-family: Roboto;
+	top:120px;
+	left: 530px;
+}
+
+.cls_AnoDConclusao{/*Ano de Conclusão*/
+	width:200px;
+	height:18px;
+	position:absolute;
+	font-family: Roboto;
+	top:120px;
+	left: 610px;
+}
+.cls_inptAnoDConclusao{/*Input Ano de Conclusão*/
+	width:60px;
+	height:18px;
+	position:absolute;
+	font-family: Roboto;
+	top:120px;
+	left: 750px;
+}
+
+
+#dv_QudroFormaSuperior{/*Quadro Formção Superior Caso 1*/
+	background-color: rgba(238.00000101327896, 244.0000006556511, 246.0000005364418, 1);
+	opacity: 1;
+	border: 0.5px solid rgba(0, 169.00000512599945, 231.00000143051147, 1);
+	width: 99.3%;
+	height: 157px;
+	position: absolute;
+	left: 3px;;
+	top: 25px
+	
+}
+
+#dv_Qudro1FormaSuperior{/*Quadro Formção Superior Caso 2*/
+	background-color: rgba(238.00000101327896, 244.0000006556511, 246.0000005364418, 1);
+	opacity: 1;
+	border: 0.5px solid rgba(0, 169.00000512599945, 231.00000143051147, 1);
+	width: 99.3%;
+	height: 157px;
+	position: absolute;
+	left: 3px;;
+	top: 180px
+}
+
+#dv_Qudro1FormaComplenPedagogica{
+	background-color: rgba(238.00000101327896, 244.0000006556511, 246.0000005364418, 1);
+	opacity: 1;
+	border: 0.5px solid rgba(0, 169.00000512599945, 231.00000143051147, 1);
+	width: 99.3%;
+	height: 157px;
+	position: absolute;
+	left: 3px;;
+	top: 338px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#br_habilitacao { /*Barra Habilitação*/
+	background-color: rgba(179.56249594688416, 179.56249594688416, 179.56249594688416, 1);
+	text-align: center; opacity : 1;
+	border: 1px solid rgba(0, 86.00000247359276, 179.000004529953, 1);
+	width: 99.3%;
+	height: 22px;
+	position: absolute;
+	opacity: 1; border : 1px solid rgba( 0, 86.00000247359276,
+	179.000004529953, 1); width : 99.3%; height : 22px; position : absolute;
+	left: 3px;
+}
+
+#dv_QudroTbHabilitacao { /*Quadro Tabela Habilitação*/
+	background-color: rgba(238.00000101327896, 244.0000006556511, 246.0000005364418, 1);
+	opacity: 1;
+	border: 0.5px solid rgba(0, 169.00000512599945, 231.00000143051147, 1);
+	width: 273px;
+	height: 257px;
+	position: absolute;
+	left: 20px;;
+	top: 115px
+}
+.cls_tdProgPedago{
+	width: 273px;
+	height: 25px;
+	text-align: center;
+	padding: 0;
+}
+caption { /*Hbilitação*/
+	text-align: left;
+	font-family: Roboto;
+	width: 273px;
+	/*font-weight: bold; height:257px;*/
+	font-weight: bold;
+	position: absolute;
+	top: -25px
+}
+
+#dv_QudroTbDisciplinas {/*Quadro Tbela Disciplinas*/
+	background-color: rgba(238.00000101327896, 244.0000006556511, 246.0000005364418, 1);
+	opacity: 1;
+	
+	width: 420px;
+	height: 257px;
+	position: absolute;
+	left: 400px;;
+	top: 60px;
+	size: 18px;
+}
+
+.cls_disciplinas {/*Disciplinas*/
+	left: 20px;
+	top: -25px;
+	font-family: Roboto;
+	width: 273px;
+	/*font-weight: bold; height:257px;*/
+	font-weight: bold;
+	position: absolute;
+}
+
+.cls_ProgPedagocico { /*Programa pedagógico*/
+	left: 20px;
+	top: 10px;
+	font-family: Roboto;
+	width: 273px;
+	height: 18px;
+	/*font-weight: bold; height:257px;*/
+	position: absolute;
+}
+
+.cls_selectProgPedagoco { /*Select Prog pedagógico*/
+	left: 200px;
+	top: 10px;
+	font-family: Roboto;
+	width: 200px;
+	height: 18px;
+	position: absolute;
+}
+.cls_ProgDisciplinas{/* Disciplinas*/
+	left: 20px;
+	top: 35px;
+	font-family: Roboto;
+	width: 273px;
+	height: 18px;
+	/*font-weight: bold; height:257px;*/
+	position: absolute;
+	
+}
+.cls_selectDisciplinas{/*Select Disciplinas*/
+	left: 200px;
+	top: 35px;
+	font-family: Roboto;
+	width: 200px;
+	height: 18px;
+	position: absolute;
+}
+#dv_QdadciontRemover{/*Quadro adcionar remover*/
+	font-family: Roboto;
+	opacity: 1;
+	width: 223px;
+	height: 18px;
+	position: absolute;
+	left: 200px;
+	top: 65px;
+}
+
+#dv_QdroProgPedagDisciplinas{/*Quadro progrma pedagógico Disciplinas */
+	background-color: rgba(238.00000101327896, 244.0000006556511, 246.0000005364418, 1);
+	opacity: 1;
+	
+	width: 400px;
+	height: 157px;
+	position: absolute;
+	left: 4px;;
+	top: 90px;
+	size: 18px;
+	
+}
+.cls_027adicionar { /*BotÃ£o Adicionar*/
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	background-color: rgba(149.81249392032623, 149.81249392032623, 149.81249392032623, 1);
+	color: rgba(255, 255, 255, 1);
+	opacity: 1;
+	border: 1px solid
+		rgba(138.1250050663948, 138.1250050663948, 138.1250050663948, 1);
+	width: 98px;
+	height: 18px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	border-radius: 8px;
+}
+.cls_028Remover { /* botão remover*/
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	background-color: rgba(149.81249392032623, 149.81249392032623, 149.81249392032623, 1);
+	opacity: 1;
+	color: rgba(255, 255, 255, 1);
+	border: 1px solid
+		rgba(138.1250050663948, 138.1250050663948, 138.1250050663948, 1);
+	width: 98px;
+	height: 18px;
+	position: absolute;
+	left: 106px;
+	top: 0px;
+	border-radius: 8px;
+}
+
+#e295_1943 { /* Quadro Salvar/ Cancelar*/
+	font-family: Roboto;
+	opacity: 1;
+	width: 423px;
+	height: 25px;
+	position: absolute;
+	left: 270px;
+	top: 520px;
+}
+
+#e295_1944 { /*Nome Imprimir*/
+	color: rgba(255, 255, 255, 1);
+	opacity: 1;
+	width: 99px;
+	height: 21px;
+	position: absolute;
+	left: 5px;
+	top: 4px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+
+.cls_027 { /*BotÃ£o Salvar*/
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	background-color: rgba(149.81249392032623, 149.81249392032623, 149.81249392032623, 1);
+	color: rgba(255, 255, 255, 1);
+	opacity: 1;
+	border: 1px solid
+		rgba(138.1250050663948, 138.1250050663948, 138.1250050663948, 1);
+	width: 115px;
+	height: 22px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	border-radius: 8px;
+}
+
+.cls_29 input:hover {
+	cursor: pointer;
+	background-color: #370707;
+	transition: 0.5s;
+}
+
+.cls_028 { /*Cancelar*/
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	background-color: rgba(149.81249392032623, 149.81249392032623, 149.81249392032623, 1);
+	opacity: 1;
+	color: rgba(255, 255, 255, 1);
+	border: 1px solid
+		rgba(138.1250050663948, 138.1250050663948, 138.1250050663948, 1);
+	width: 115px;
+	height: 22px;
+	position: absolute;
+	left: 306px;
+	top: 0px;
+	border-radius: 8px;
+}
+
+#e295_1947 { /*Exportar Arquivo*/
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	background-color: rgba(149.81249392032623, 149.81249392032623, 149.81249392032623, 1);
+	color: rgba(255, 255, 255, 1);
+	opacity: 1;
+	border: 1px solid
+		rgba(138.1250050663948, 138.1250050663948, 138.1250050663948, 1);
+	width: 115px;
+	height: 22px;
+	position: absolute;
+	left: 153px;
+	top: 0px;
+	border-radius: 8px;
+}

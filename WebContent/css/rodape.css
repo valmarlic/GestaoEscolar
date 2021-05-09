@@ -1,0 +1,36 @@
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #001A36;
+  color: white;
+  text-align: left;
+  height: 56px;
+}
+
+.mensagem-rodape{
+	font-size: 13px;
+	position: absolute;
+    left: 1%;
+    top: 25%;
+}
+
+#imagem-rodape{
+	position: absolute;
+    right: 1%;
+    top: 20%;	
+}
+
+.footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #001A36;
+	color: white;
+	text-align: left;
+	height: 70px;
+	z-index: 3;
+}

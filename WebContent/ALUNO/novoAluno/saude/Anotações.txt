@@ -1,0 +1,143 @@
+<input class="rbtn_pai1" type="radio" name="campo-radio1"><!-- Caixa RadioButton Pai --></input><span class="spn_Pai1">Pai</span>
+ 		<input class="rbtn_mae1" type="radio" name="campo-radio1"><!-- Caixa RadioButton Mae 1 --></input><span class="spn_Mae1">Mãe</span>
+ 		<input class="rbtn_outro1" type="radio" name="campo-radio1"><!-- Caixa RadioButton Outro 1 --></input><span class="spn_outro1">Outro</span>
+ 		<input class="rbtn_nDeclarado1" type="radio" name="campo-radio1"><!-- Caixa RadioButton Não declarado 1 --></input><span class="spn_nDeclarado1">Não declarado</span>
+ 		
+ 		<input class="rbtn_pai2" type="radio" name="campo-radio1"><!-- Caixa RadioButton Pai 2 --></input><span class="spn_Pai2">Pai</span>
+ 		<input class="rbtn_mae2" type="radio" name="campo-radio1"><!-- Caixa RadioButton Mae 2 --></input><span class="spn_Mae2">Mãe</span>
+ 		<input class="rbtn_outro2" type="radio" name="campo-radio1"><!-- Caixa RadioButton Outro 2 --></input><span class="spn_outro2">Outro</span>
+ 		<input class="rbtn_nDeclarado2" type="radio" name="campo-radio1"><!-- Caixa ChekcBox Não declarado 2 --></input><span class="spn_nDeclarado2">Não declarado</span>
+ 		<span class="spn_responsavel">Responsável</span>
+ 		
+ 		<select id="slct_Respsavl" name="UF" value="Selecione">
+					<option>Selecione
+						<option>Pai</option>
+						<option>Mãe</option>
+						<option>Outro</option>
+					</option>			
+		</select>
+ 		
+ 		<span class="spn_horDispnivl">Horários disponíveis dos pais/responsáveis para reunião:</span>
+ 		<input id="dv_DtaDispnivl" type="time" value="00:00"><!-- Horários disponíveis dos pais/responsáveis para reunião: --></input>
+ 		
+ 		<span class="spn_psoaAutorzda">Nome de pessoas autorizadas a buscar o aluno da escola:</span>
+ 		<input class="cls_PssAutzda" value=""><!-- Caixa de texto Pessoa autzda --></input>
+ 		
+ 		<span class="cls_nomResponsvel">Nome Responsável</span>
+ 		<input class="cls_nomPssAutzda" type="text"><!--Input Caixa de Texto Nome Responsável --></input>
+ 		<span class="spn_cpfResponsvl">CPF do Responsável</span>
+ 		<input class="cls_cpfResponsvl" type="text"><!--Input Caixa de Texto CPF Responsável --></input>
+ 		
+ 		<span class="spn_endResponsvl">Endereço Responsável</span>
+ 				<div id="dv_endendResponsvl"><!-- Quadro de Endereço do Responsável -->
+ 				<span class="cls_CEP">CEP:</span>
+ 				<input class="cls_InputCEP" value=""><!-- Caixa de texto Cep Respon --></input>
+ 				<span class="cls_Complemto">Complemento:</span>
+ 				<input class="cls_InputComplnto" value=""><!-- Caixa de texto Complemento Respon --></input>
+ 				<span class="cls_UF">UF:</span>
+ 				
+ 					<select class="cls_selcttUF" name="UF" value="Selecione">
+						<option>Selecione
+							<option>MA</option>
+							<option>PA</option>
+							<option>BA</option>
+						</option>			
+					</select>
+					
+ 				<span class="cls_znaResidcial">Zona Residencial:</span>
+ 					<select class="cls_selctznaResidcial" name="UF" value="Selecione">
+						<option>Selecione
+							<option>Zona Rural</option>
+							<option>Zona Urbana</option>
+						</option>			
+					</select>
+ 				<span class="cls_mordia">Moradia:</span>
+ 						<select class="cls_selctMoradia" name="UF" value="Selecione">
+						<option>Selecione
+							<option>Oca</option>
+							<option>Palafita</option>
+							<option>Pau a Pique</option>
+							<option>Alvenaria</option>
+							<option>Edifícios</option>
+							<option>Pré-Montadas</option>
+						</option>			
+					</select>
+ 					
+ 				<span class="cls_telfon">Telefone:</span>
+ 				<input class="cls_InputTelefone" value=""><!-- Caixa de texto Telefone Respon --></input>
+ 				
+ 				<span class="cls_numero">Número:</span>
+ 				<input class="cls_inputNumero" value="xxxxxxxx"></input>
+ 				<span class="cls_astricoNumro"><!-- Astrico -->*</span>
+ 				<span class="cls_bairro">Bairro:</span>
+ 				<input class="cls_inputBairro" value="xxxxxxxx"></input>
+ 				<span class="cls_astricoBairro"><!-- Astrico -->*</span>
+ 				<span class="cls_municipio">Município:</span>
+ 				<input class="cls_inputMunicipio" value="xxxxxxxx"></input>
+ 				<span class="cls_nacinaldade">Nacionalidade:</span>
+ 				
+ 						<select class="cls_selctNacionalidade" name="UF" value="Selecione">
+						<option>Selecione
+							<option>BR</option>
+							<option>USA</option>
+							<option>UKR</option>
+							<option>URU</option>
+							<option>UZB</option>
+							<option>UGA</option>
+						</option>			
+					</select>
+ 				
+ 				<span class="cls_E_mail">E-mail:</span>
+ 				<input class="cls_inputE_mail" value="xxxxxxxx"></input>
+ 				<span class="cls_munic_Nasmcnto">Município de Nascimento:</span>
+ 				
+ 				<select class="cls_selctMuniNascimento" name="UF" value="Selecione">
+						<option>Selecione
+							<option>São luis</option>
+							<option>São José de Ribamar</option>
+							<option>Raposa</option>
+							<option>Anajatuba</option>
+							<option>Paço do Lumiar</option>
+							<option>Matões</option>
+						</option>			
+					</select>
+					
+					<span class="cls_logradouro">Logradouro:</span>
+					<input class="cls_inptLogradouro" value="xxxxxxxx"></input>
+					
+					<span class="cls_distrito">Distrito:</span>
+					<input class="cls_inputDistrito" value="xxxxxxxx"></input>
+					
+					<span class="cls_LdResidencia">Localização diferenciada de Residência:</span>
+ 							
+ 					<select class="cls_selctLocDifResincia" name="UF" value="Selecione">
+						<option>Selecione
+							<option>1 - Terra indigina;</option>
+							<option>2 - Área de Assentamento;</option>
+							<option>3 - Área remanescente de quilombos;</option>
+							<option>4 - Não está em área de localização diferenciada</option>
+						</option>			
+				   </select>
+ 							
+ 							
+ 							
+ 							
+ 							
+<span id="e295_1927">Qual(is) medicamento(s) e/ou produto: </span>
+   		<input id="e295_1928" value=""><!-- Caixa Filiação 2 --></input>
+ 		<span id="e295_1926">Apresenta alergia a algum tipo de alimento:</span>
+ 		<input id="e295_1924" type="text"><!--Input Caixa de Texto CPF --></input> 
+ 		
+ 		
+ 		
+ .cls_inputApralergMedPrdt{/* Input Text Apresenta alergia a algum tipo de medicamento ou produto */
+	background-color:rgba(255, 255, 255, 1);
+	opacity:1;
+	border:0.5px solid rgba(78.62500101327896, 78.62500101327896, 78.62500101327896, 1);
+	position:absolute;
+	font-size:12px;
+	left:452px;
+	top:95px;
+	text-align: center;
+}							
+ 							

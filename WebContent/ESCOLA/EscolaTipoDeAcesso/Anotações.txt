@@ -1,0 +1,99 @@
+.tabela {/*Tabela Tipo Usário*/
+  overflow-x: auto;
+  width: 600px;
+  height: 180px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 280px;
+  left: 50px;
+  border: 1px solid rgba(0,0,0,1);
+  
+}
+
+.v202_19 {/*Conteiner Grid da Tabela*/
+    width: 617px;
+    height: 187px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 372px;
+    left: 207px;
+    border: 1px solid rgba(0,0,0,1);
+    overflow: auto;
+    z-index: 1;
+}
+
+
+
+<div class="v202_19" style="overflow: auto; width: 600px; height: 150px; border:solid 1px"> 
+    <table class="tabela" style="width:800px">
+        <thead>
+            <tr>
+                
+                <th>Nome da Escola</th>
+                <th>Núcleo</th>
+                <th>Código INEP</th>
+               
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+               
+                <td>Marcio Castro</td>
+                <td>São Cristovão</td>
+                <td>123456789</td>
+                
+            </tr>
+            <tr>
+               
+                <td>João da Silva</td>
+                <td>joao de Deus</td>
+                <td> 98765432</td>
+    
+            </tr>
+            <tr>
+                
+                <td>Pedro Pereira</td>
+                <td>João Paulo</td>
+                <td> 32213221</td>
+               
+            </tr>
+            <tr>
+                
+                <td>Marcio Castro</td>
+                <td>Vila Palmeira</td>
+                <td>123456789</td>
+                
+            </tr>
+            <tr>
+                
+                <td>João da Silva</td>
+                <td>Alemanha</td>
+                <td>98765432</td>
+                
+            </tr>  
+             <tr>
+                
+                <td>João da Silva</td>
+                <td>Alemanha</td>
+                <td>98765432</td>
+                
+            </tr>           
+             <tr>
+                
+                <td>João da Silva</td>
+                <td>Alemanha</td>
+                <td>98765432</td>
+                
+            </tr>              
+             <tr>
+                
+                <td>João da Silva</td>
+                <td>Alemanha</td>
+                <td>98765432</td>
+                
+            </tr>                             
+        </tbody>
+    </table>
+    </div>

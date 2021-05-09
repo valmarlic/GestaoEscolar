@@ -1,0 +1,1777 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+
+#e172_283 { /*Conteiner Master*/
+	
+	background-color : rgba( 237.12343364953995,
+	239.37461525201797, 240.12499898672104, 1);
+	opacity: 1;
+	border: 1px solid rgba(0, 86.00000247359276, 179.000004529953, 1);
+	width: 798px;
+	height: 520px;
+	position: absolute;
+	left: 240px;
+	top: 8px;
+	background-color: rgba(237.12343364953995, 239.37461525201797, 240.12499898672104, 1);
+	z-index: 0;
+}
+#e172_292 { /*Conteiner de Inf. Gerais*/
+	background-color: rgba(255, 255, 255, 1);
+	opacity: 1;
+	border: 1px solid rgba(0, 86.00000247359276, 179.000004529953, 1);
+	width: 590px;
+	height: 93px;
+	position: absolute;
+	left: 4px;
+	top: 4px;
+}
+#e172_302 { /*Barra de inf. Gerais*/
+	background-color: rgba(179.56249594688416, 179.56249594688416, 179.56249594688416, 1);
+	opacity: 1;
+	border: 1px solid rgba(0, 86.00000247359276, 179.000004529953, 1);
+	width: 588px;
+	height: 19px;
+	position: absolute;
+	left: 1px;
+	top: 1px;
+}
+
+#e172_310 { /*Informações Gerais*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 112px;
+	height: 15px;
+	position: absolute;
+	left:3;
+	top:2;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 13px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+#e172_314 {/*Secretaria Municipal de Educação*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 184px;
+	height: 14px;
+	position: absolute;
+	left: 3px;
+	top: 25px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+
+
+
+#e469_716 { /*Nucleo*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 41px;
+	height: 14px;
+	position: absolute;
+	left: 3px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+	top: 41px;
+}
+#e172_328 { /* Codigo INEP */
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 74px;
+	height: 14px;
+	position: absolute;
+	left: 4px;
+	top: 58px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+#e172_352 {/*Nome da Escola*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 93px;
+	height: 14px;
+	position: absolute;
+	top: 75px;
+	left:3px;
+	font-family: Roboto;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+
+#e172_318 { /*SECRETARIA MUNICIPAL DE EDUCAÇÃO - SAO LUIS*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 259px;
+	height: 13px;
+	position: absolute;
+	left: 203px;
+	top: 25px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 11px;
+	letter-spacing: 0;
+	line-height: undefined;
+	
+}
+
+#e469_715 { /*xxxxxxxx-1 Inf Gerais*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 130px;
+	height: 14px;
+	position: absolute;
+	left: 203px;
+    top: 41px;
+	font-family: Roboto;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+
+#e172_333 {/*xxxxxx - 2 Inf Gerais*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 130px;
+	height: 14px;
+	position: absolute;
+	left: 203px;
+	top: 58px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+
+
+
+#e172_354 { /*UEB - xxxxxxxxxxxx-3*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 130px;
+	height: 14px;
+	position: absolute;
+	left: 203px;
+	top: 75px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+#e172_300 {/*Sigla - 1*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 30px;
+	height: 14px;
+	position: absolute;
+	left: 490px;
+	top: 25px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+#e172_326 {/*Sigla -2*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 30px;
+	height: 14px;
+	position: absolute;
+	left: 490px;
+	top: 41px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+#e948_717 {/*Tipo*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 27px;
+	height: 14px;
+	position: absolute;
+	left: 490px;
+	top: 58px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+#e172_301 {/*SEMED*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 40px;
+	height: 14px;
+	position: absolute;
+	left: 540px;
+	top: 25px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+#e172_327 { /*PMSL */
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 32px;
+	height: 14px;
+	position: absolute;
+	left: 540px;
+	top: 41px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+
+#e948_719 {/*Polo*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 25px;
+	height: 14px;
+	position: absolute;
+	left: 540px;
+	top: 58px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+#e172_293 {/*Conteúdo de endereço*/
+	background-color: rgba(255, 255, 255, 1);
+	opacity: 1;
+	border: 1px solid rgba(0, 86.00000247359276, 179.000004529953, 1);
+	width: 593px;
+	height: 119px;
+	position: absolute;
+	left: 3px;
+	top: 130px;
+}
+
+#e172_303 { /* Barra de endereço */
+	background-color: rgba(180.00000447034836, 180.00000447034836, 180.00000447034836, 1);
+	opacity: 1;
+	border: 1px solid rgba(0, 86.00000247359276, 179.000004529953, 1);
+	width: 590px;
+	height: 19px;
+	position: absolute;
+	left: 1px;
+	top: 1px;
+}
+#e172_311 {/* Endereço*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 55px;
+	height: 15px;
+	position: absolute;
+	left: 2px;
+	top: 2px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 13px;
+	letter-spacing: 0;
+	line-height: undefined;
+	z-index: 1;
+}
+#e172_315 {/*CEP*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 26px;
+	height: 14px;
+	position: absolute;
+	left: 2px;
+	top: 25px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+#e172_334 {/*xxxxxxxx - 1  de Endereço*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 66px;
+	height: 14px;
+	position: absolute;
+	left: 150px;
+	top: 23px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+
+#e172_322 { /*Logradouro*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 65px;
+	height: 14px;
+	position: absolute;
+	left: 2px;
+	top: 41px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+
+#e172_336 { /*xxxxxxxx -2 de Endereço*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 66px;
+	height: 14px;
+	position: absolute;
+	left: 150px;
+	top: 41px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+
+#e172_329 { /*Complemento Endereço*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 79px;
+	height: 14px;
+	position: absolute;
+	left: 2px;
+	top: 58px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+
+#e172_341 { /*xxxxxxxx - 3 de Endereço*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 66px;
+	height: 14px;
+	position: absolute;
+	left: 150px;
+	top: 58px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+#e172_353 { /*UF no Endereço*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 18px;
+	height: 14px;
+	position: absolute;
+	left: 2px;
+	top: 76px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+
+#e172_343 {/*xxxxxxxx - 4 de Endereço*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 66px;
+	height: 14px;
+	position: absolute;
+	left: 150px;
+	top: 76px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+#e172_355 { /*Município de Endereço*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 56px;
+	height: 14px;
+	position: absolute;
+	left: 2px;
+	top: 92px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+
+#e172_344 {/*xxxxxxxx - 5 de Endereço*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 66px;
+	height: 14px;
+	position: absolute;
+	left: 150px;
+	top: 92px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+#e172_319 {/*Distrito de Endereço*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 38px;
+	height: 13px;
+	position: absolute;
+	left: 370px;
+	top: 23px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 11px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+
+#e172_347 {/*xxxxxxx - 6 de Endereço*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 66px;
+	height: 14px;
+	position: absolute;
+	left: 470px;
+	top: 23px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+#e172_325 {/*Número no Endereço*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 42px;
+	height: 26px;
+	position: absolute;
+	left: 370px;
+	top: 41px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 11px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+#e172_346 {/*xxxxxxxx - 7 no Endereço*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 66px;
+	height: 14px;
+	position: absolute;
+	left: 470px;
+	top: 41px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+#e172_349 {/*Bairro no Endereço*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 35px;
+	height: 14px;
+	position: absolute;
+	left: 370px;
+	top: 58px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+#e172_345 { /* xxxxxxxx - 8 no Endereço*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 66px;
+	height: 14px;
+	position: absolute;
+	left: 470px;
+	top: 58px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+
+#e172_350 {/*Latitude bo Endereço */
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 47px;
+	height: 14px;
+	position: absolute;
+	left: 370px;
+	top: 76px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+#e172_351 {/*Longitude no Endereço*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 57px;
+	height: 14px;
+	position: absolute;
+	left: 370px;
+	top: 92px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+#e172_294 { /* Conteúdo de Contato */
+	background-color: rgba(255, 255, 255, 1);
+	opacity: 1;
+	border: 1px solid rgba(0, 86.00000247359276, 179.000004529953, 1);
+	width: 593px;
+	height: 80px;
+	position: absolute;
+	left:0px;
+	top: 151px;
+}
+#e172_304 {/*Barra Contato*/
+	background-color: rgba(180.00000447034836, 180.00000447034836, 180.00000447034836, 1);
+	opacity: 1;
+	border: 1px solid rgba(0, 86.00000247359276, 179.000004529953, 1);
+	width: 590px;
+	height: 19px;
+	position: absolute;
+	left: 1px;
+	top: 1px;
+}
+#e172_312 { /*Contato */
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 46px;
+	height: 15px;
+	position: absolute;
+	left: 3px;
+	top: 3px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 13px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+#e172_316 { /*Telefone Fixo de Contato*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 75px;
+	height: 14px;
+	position: absolute;
+	left: 2px;
+	top:22px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+#e172_335 {/*xxxxxxxx - 1*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 66px;
+	height: 14px;
+	position: absolute;
+	left: 150px;
+	top: 23px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+
+#e172_323 {/*Telefone Celular de Contato*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 90px;
+	height: 14px;
+	position: absolute;
+	left: 2px;
+	top: 47px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+#e172_337 {/* xxxxxxxx - 2 de Contato*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 66px;
+	height: 14px;
+	position: absolute;
+	left: 150px;
+	top: 47px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+#e172_320 {/*Fax de Contato*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 22px;
+	height: 14px;
+	position: absolute;
+	left: 320px;
+	top: 23px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+#e172_348 {/*xxxxxxxx- 3*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 66px;
+	height: 14px;
+	position: absolute;
+	left: 420px;
+	top: 23px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+
+#e172_330 {/*E-mail institucional */
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 105px;
+	height: 14px;
+	position: absolute;
+	left: 320px;
+	top: 47px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+#e172_342 {/*xxxxxxxx - 4 de Contato*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 66px;
+	height: 14px;
+	left: 470px;
+	top: 47px;
+	position: absolute;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+
+#e172_295 {/*Conteiner de Conteúdo de Informações adicionais*/
+	background-color: rgba(255, 255, 255, 1);
+	opacity: 1;
+	border: 1px solid rgba(0, 86.00000247359276, 179.000004529953, 1);
+	width: 593px;
+	height: 86px;
+	position: absolute;
+	left:0px;
+	top: 250px;
+}
+#e172_305 {/*Barra de Informações adicionais*/
+	background-color: rgba(180.00000447034836, 180.00000447034836, 180.00000447034836, 1);
+	opacity: 1;
+	border: 1px solid rgba(0, 86.00000247359276, 179.000004529953, 1);
+	width: 590px;
+	height: 19px;
+	position: absolute;
+	left: 2px;
+	top: 2px;
+}
+
+#e172_313 {/*Informações adicionais da unidade*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 203px;
+	height: 20px;
+	position: absolute;
+	left: 2px;
+	top: 2px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 13px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+
+#e172_317 {/*CNPJ da unidade executora*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 92px;
+	height: 28px;
+	position: absolute;
+	left: 2px;
+	top: 26px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+#e172_338 {/*xxxxxxxx - 1 de Informações adicionais da unidade*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 66px;
+	height: 14px;
+	position: absolute;
+	left: 150px;
+	top: 26px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+#e172_331 {/*Diretor de Informações adicionais da unidade*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 39px;
+	height: 14px;
+	position: absolute;
+	left: 320px;
+	top: 26px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+#e172_339 {/*xxxxxxxx - 2 de Informações adicionais da unidade */
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 66px;
+	height: 14px;
+	position: absolute;
+	left: 420px;
+	top: 26px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+#e172_332 {/*Região de Informações adicionais da unidade */
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 40px;
+	height: 14px;
+	position: absolute;
+	left: 320px;
+	top: 45px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+#e172_340 {/*xxxxxxxx - 3 de Informações adicionais da unidade*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 66px;
+	height: 14px;
+	position: absolute;
+	left: 420px;
+	top: 45px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+#e172_296 {/* Conteúdo de Situação de Funcionamento*/
+	background-color: rgba(255, 255, 255, 1);
+	opacity: 1;
+	border: 1px solid rgba(0, 86.00000247359276, 179.000004529953, 1);
+	width: 166px;
+	height: 93px;
+	position: absolute;
+	left: 628px;
+	top: 4px;
+}
+#e172_306 {/*Barra  de Situação de Funcionamento*/
+	background-color: rgba(180.00000447034836, 180.00000447034836, 180.00000447034836, 1);
+	opacity: 1;
+	border: 1px solid rgba(0, 86.00000247359276, 179.000004529953, 1);
+	width: 164px;
+	height: 19px;
+	position: absolute;
+	left: 1px;
+	top: 1px;
+}
+
+#e172_356 {/*Situação de Funcionamento*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 152px;
+	height: 14px;
+	position: absolute;
+	left: 3px;
+	top: 3px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+#e172_360 {/* Em Funcionamento*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 104px;
+	height: 14px;
+	position: absolute;
+	left: 3px;
+	top: 30px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+
+#e172_372 {/* Radius Button- 1  Situação de Funcionamento*/
+	background-color: rgba(255, 255, 255, 1);
+	opacity: 1;
+	border: 1px solid rgba(0, 86.00000247359276, 179.000004529953, 1);
+	width: 18px;
+	height: 16px;
+	position: absolute;
+	left: 130px;
+	top: 26px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+#e172_364 {/*Paralisada*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 57px;
+	height: 14px;
+	position: absolute;
+	left: 3px;
+	top: 50px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+#e172_376 {/* Radius - 1  Situação de Funcionamento */
+	background-color: rgba(255, 255, 255, 1);
+	opacity: 1;
+	border: 1px solid rgba(0, 86.00000247359276, 179.000004529953, 1);
+	width: 18px;
+	height: 16px;
+	position: absolute;
+	left: 130px;
+	top: 48px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+#e172_368 {/*Extinta*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 37px;
+	height: 14px;
+	position: absolute;
+	left: 3px;
+	top: 72px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+#e172_380 {/*Radius - 1  Situação de Funcionamento*/
+	background-color: rgba(255, 255, 255, 1);
+	opacity: 1;
+	border: 1px solid rgba(0, 86.00000247359276, 179.000004529953, 1);
+	width: 18px;
+	height: 16px;
+	position: absolute;
+	left: 130px;
+	top: 70px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+#e172_297 {/* Conteúdo de Regulamentação/Autorização*/
+	background-color: rgba(255, 255, 255, 1);
+	opacity: 1;
+	border: 1px solid rgba(0, 86.00000247359276, 179.000004529953, 1);
+	width: 166px;
+	height: 92px;
+	position: absolute;
+	left: 628px;
+	top: 130px;
+}
+#e172_307 {/*Barra de Regulamentação/Autorização*/
+	background-color: rgba(180.00000447034836, 180.00000447034836, 180.00000447034836, 1);
+	opacity: 1;
+	border: 1px solid rgba(0, 86.00000247359276, 179.000004529953, 1);
+	width: 164px;
+	height: 19px;
+	position: absolute;
+	left: 1px;
+	top: 1px;
+}
+#e172_357 {/*Regulamentação/Autorização*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 160px;
+	height: 14px;
+	position: absolute;
+	left: 3px;
+	top: 3px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+#e172_361 {/*SIm de Regulamentação/Autorização*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 21px;
+	height: 14px;
+	position: absolute;
+	left: 3px;
+	top: 30px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+
+#e172_373 {/* Radius - 2  Regulamentação/Autorização*/
+	background-color: rgba(255, 255, 255, 1);
+	opacity: 1;
+	border: 1px solid rgba(0, 86.00000247359276, 179.000004529953, 1);
+	width: 18px;
+	height: 16px;
+	position: absolute;
+	left: 130px;
+	top: 26px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+#e172_365 {/*Não  de Regulamentação/Autorização */
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 22px;
+	height: 14px;
+	position: absolute;
+	left: 3px;
+	top: 51px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+#e172_377 {/*Radius - 2  Regulamentação/Autorização */
+	background-color: rgba(255, 255, 255, 1);
+	opacity: 1;
+	border: 1px solid rgba(0, 86.00000247359276, 179.000004529953, 1);
+	width: 18px;
+	height: 16px;
+	position: absolute;
+	left: 130px;
+	top: 48px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+#e172_369 {/*Em Tramitação de Regulamentação/Autorização*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 81px;
+	height: 14px;
+	position: absolute;
+	left: 3px;
+	top: 74px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+#e172_381 {/*Radius - 2  Regulamentação/Autorização*/
+	background-color: rgba(255, 255, 255, 1);
+	opacity: 1;
+	border: 1px solid rgba(0, 86.00000247359276, 179.000004529953, 1);
+	width: 18px;
+	height: 16px;
+	position: absolute;
+	left: 130px;
+	top: 70px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+#e172_299 {/* Conteúdo de Localização */
+	background-color: rgba(255, 255, 255, 1);
+	opacity: 1;
+	border: 1px solid rgba(0, 86.00000247359276, 179.000004529953, 1);
+	width: 166px;
+	height: 70px;
+	position: absolute;
+	left: 628px;
+	top: 250px;
+}
+#e172_309 {/*Barra de Localização*/
+	background-color: rgba(180.00000447034836, 180.00000447034836, 180.00000447034836, 1);
+	opacity: 1;
+	border: 1px solid rgba(0, 86.00000247359276, 179.000004529953, 1);
+	width: 164px;
+	height: 19px;
+	position: absolute;
+	left: 1px;
+	top: 1px;
+}
+#e172_359 {/*Localisação*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 65px;
+	height: 14px;
+	position: absolute;
+	left: 3px;
+	top: 3px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+#e172_363 {/*Sim de Localização */
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 21px;
+	height: 14px;
+	position: absolute;
+	left: 3px;
+	top: 30px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+#e172_375 {/*Rdious Button - 3*/
+	background-color: rgba(255, 255, 255, 1);
+	opacity: 1;
+	border: 1px solid rgba(0, 86.00000247359276, 179.000004529953, 1);
+	width: 18px;
+	height: 16px;
+	position: absolute;
+	left: 130px;
+	top: 26px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+#e172_367 {/*Não de Localisação*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 22px;
+	height: 14px;
+	position: absolute;
+	left: 3px;
+	top: 51px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+#e172_379 {/*Radius Button - 3*/
+	background-color: rgba(255, 255, 255, 1);
+	opacity: 1;
+	border: 1px solid rgba(0, 86.00000247359276, 179.000004529953, 1);
+	width: 18px;
+	height: 16px;
+	position: absolute;
+	left: 130px;
+	top: 48px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+#e172_298 {/* Conteúdo de Dependência Administrativa*/
+	background-color: rgba(255, 255, 255, 1);
+	opacity: 1;
+	border: 1px solid rgba(0, 86.00000247359276, 179.000004529953, 1);
+	width: 166px;
+	height: 119px;
+	position: absolute;
+	left: 628px;
+	top: 350px;
+}
+#e172_308 { /* Barra de Dependência Administrativa*/
+	background-color: rgba(180.00000447034836, 180.00000447034836, 180.00000447034836, 1);
+	opacity: 1;
+	border: 1px solid rgba(0, 86.00000247359276, 179.000004529953, 1);
+	width: 164px;
+	height: 19px;
+	position: absolute;
+	left: 1px;
+	top: 1px;
+}
+
+#e172_358 {/*Dependência Administrativa*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 150px;
+	height: 14px;
+	position: absolute;
+	left: 3px;
+	top: 3px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+#e172_362 {/*Federal de Dependência Administrativa */
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 40px;
+	height: 14px;
+	position: absolute;
+	left: 3px;
+	top: 30px;;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+
+#e172_374 {/*Radius Buttons - 4 de Dependência Administrativa*/
+	background-color: rgba(255, 255, 255, 1);
+	opacity: 1;
+	border: 1px solid rgba(0, 86.00000247359276, 179.000004529953, 1);
+	width: 18px;
+	height: 16px;
+	position: absolute;
+	left: 130px;
+	top: 26px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+#e172_366 {/* Estadual de Dependência Administrativa */
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 47px;
+	height: 14px;
+	position: absolute;
+	left: 3px;
+	top: 51px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+#e172_378 {/*Radious Button - 4 de Dependência Administrativa  */
+	background-color: rgba(255, 255, 255, 1);
+	opacity: 1;
+	border: 1px solid rgba(0, 86.00000247359276, 179.000004529953, 1);
+	width: 18px;
+	height: 16px;
+	position: absolute;
+	left: 130px;
+	top: 48px;    
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+#e172_370 {/*Municipal de Dependência Administrativa */
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 53px;
+	height: 14px;
+	position: absolute;
+	left: 3px;
+	top: 74px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+#e172_383 {/*Radius Button - 4*/
+	background-color: rgba(255, 255, 255, 1);
+	opacity: 1;
+	border: 1px solid rgba(0, 86.00000247359276, 179.000004529953, 1);
+	width: 18px;
+	height: 16px;
+	position: absolute;
+	left: 130px;
+	top: 70px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+
+#e172_371 {/*Privado de Dependência Administrativa */
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 41px;
+	height: 14px;
+	position: absolute;
+  	left: 3px;
+	top: 94px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+
+#e172_382 {/* Rdious Button - 4 de Dependência Administrativa*/
+	background-color: rgba(255, 255, 255, 1);
+	opacity: 1;
+	border: 1px solid rgba(0, 86.00000247359276, 179.000004529953, 1);
+	width: 18px;
+	height: 16px;
+	position: absolute;
+	left: 130px;
+	top: 90px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+#e310_809 {/* Conteiner de Conteúdo de Suporte*/
+	border-radius: 500px;
+	background-color: rgba(0, 174.00000482797623, 230.00000149011612, 0.4000000059604645);
+	opacity: 1;
+	border: 3px solid rgba(0, 0, 0, 1);
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	left: 760px;
+	top: 480px;
+}
+
+#e310_812 {/*Suporte*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 39px;
+	height: 14px;
+	position: absolute;
+	left: 4px;
+	top: 42px;
+	font-family: Coustard;
+	text-align: left;
+	font-size: 10px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+
+#e69_2 {
+	overflow: hidden;
+	background-color: rgba(255, 255, 255, 1);
+	opacity: 1;
+	width: 1045px;
+	height: 791px;
+	position: absolute;
+}
+
+#e69_89 {
+	background-color: rgba(255, 255, 255, 1);
+	background-image: linear-gradient(0deg, rgba(229.49999392032623, 229.49999392032623,
+		229.49999392032623, 1) 0%, rgba(255, 255, 255, 1) 100%);
+	opacity: 1;
+	border: 1px solid
+		rgba(137.00000703334808, 137.00000703334808, 137.00000703334808, 1);
+	width: 817px;
+	height: 136px;
+	position: absolute;
+	left: 225px;
+	top: -37px;
+}
+
+#e69_90 {
+	background-color: rgba(193.28646272420883, 236.01577788591385, 250.75000405311584, 1);
+	opacity: 1;
+	width: 265px;
+	height: 31px;
+	position: absolute;
+	left: 417px;
+	top: 10px;
+	border-radius: 112px;
+}
+
+#e69_91 {
+	opacity: 1;
+	width: 40px;
+	height: 63px;
+	position: absolute;
+	left: 345px;
+	top: 20px;
+	background-image: url(images/e1200px_bras_o_de_s_o_lu_s_1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#e69_92 {
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 124px;
+	height: 38px;
+	position: absolute;
+	left: 416px;
+	top: 40px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 36px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+
+#e69_93 {
+	background-color: rgba(193.28646272420883, 236.01577788591385, 250.75000405311584, 1);
+	opacity: 1;
+	width: 265px;
+	height: 31px;
+	position: absolute;
+	left: 728px;
+	top: 60px;
+	border-radius: 112px;
+}
+
+#e69_94 {
+	background-color: rgba(193.28646272420883, 236.01577788591385, 250.75000405311584, 1);
+	opacity: 1;
+	width: 265px;
+	height: 31px;
+	position: absolute;
+	left: 728px;
+	top: 25px;
+	border-radius: 112px;
+}
+
+#e69_95 {
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 118px;
+	height: 21px;
+	position: absolute;
+	left: 456px;
+	top: 15px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 18px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+
+#e69_96 {
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 166px;
+	height: 21px;
+	position: absolute;
+	left: 769px;
+	top: 31px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 18px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+
+#e69_97 {
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 213px;
+	height: 21px;
+	position: absolute;
+	left: 769px;
+	top: 63px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 18px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+
+#e69_102 {
+	background-color: rgba(210.00000268220901, 208.0000028014183, 208.0000028014183, 1);
+	background-image: linear-gradient(0deg, rgba(229.49999392032623, 229.49999392032623,
+		229.49999392032623, 1) 0%, rgba(255, 255, 255, 1) 100%);
+	opacity: 1;
+	border: 1px solid
+		rgba(137.00000703334808, 137.00000703334808, 137.00000703334808, 1);
+	width: 820px;
+	height: 751px;
+	position: absolute;
+	left: 225px;
+	top: 99px;
+}
+
+#e172_72 {
+	background-color: 001A36;
+	position: absolute;
+	width: 1071px;
+	height: 136px;
+	left: 0px;
+	top: -2px;
+	position: absolute;
+}
+
+#e69_98 {
+	background-color: rgba(0, 26.18048496544361, 54.18750151991844, 1);
+	opacity: 1;
+	width: 225px;
+	height: 791px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+#e69_100 {
+	opacity: 1;
+	border: 1px solid rgba(0, 0, 0, 1);
+	width: 225px;
+	height: 0px;
+	position: absolute;
+	left: 0px;
+	top: 150px;
+}
+
+#e172_73 {
+	position: absolute;
+	width: 1071px;
+	height: 136px;
+	left: 0px;
+	top: -2px;
+}
+
+#ei172_73_165_19 {
+	color: rgba(255, 255, 255, 1);
+	opacity: 1;
+	width: 284px;
+	height: 33.57142639160156px;
+	position: absolute;
+	left: 65px;
+	top: 5.755102157592773px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 36px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+
+#ei172_73_165_20 {
+	color: rgba(255, 255, 255, 1);
+	opacity: 1;
+	width: 282px;
+	height: 21px;
+	position: absolute;
+	left: 749px;
+	top: 27.816328048706055px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 18px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+
+#ei172_73_165_21 {
+	color: rgba(255, 255, 255, 1);
+	opacity: 1;
+	width: 141px;
+	height: 21px;
+	position: absolute;
+	left: 768px;
+	top: 50.83673095703125px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 18px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+
+#ei172_73_165_22 {
+	color: rgba(255, 255, 255, 1);
+	opacity: 1;
+	width: 148px;
+	height: 21px;
+	position: absolute;
+	left: 766px;
+	top: 73.85713958740234px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 18px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+
+#e172_276 {
+	background-color: rgba(255, 255, 255, 1);
+	opacity: 1;
+	border: 1px solid rgba(0, 86.00000247359276, 179.000004529953, 1);
+	width: 108px;
+	height: 46px;
+	position: absolute;
+	left: 821px;
+	top: 143px;
+}
+
+#e172_277 {
+	background-color: rgba(255, 255, 255, 1);
+	opacity: 1;
+	border: 1px solid rgba(0, 86.00000247359276, 179.000004529953, 1);
+	width: 108px;
+	height: 46px;
+	position: absolute;
+	left: 724px;
+	top: 143px;
+}
+
+#e172_278 {
+	background-color: rgba(255, 255, 255, 1);
+	opacity: 1;
+	border: 1px solid rgba(0, 86.00000247359276, 179.000004529953, 1);
+	width: 108px;
+	height: 46px;
+	position: absolute;
+	left: 626px;
+	top: 143px;
+}
+
+#e172_279 {
+	background-color: rgba(255, 255, 255, 1);
+	opacity: 1;
+	border: 1px solid rgba(0, 86.00000247359276, 179.000004529953, 1);
+	width: 108px;
+	height: 46px;
+	position: absolute;
+	left: 531px;
+	top: 143px;
+}
+
+#e172_280 {
+	background-color: rgba(255, 255, 255, 1);
+	opacity: 1;
+	border: 1px solid rgba(0, 86.00000247359276, 179.000004529953, 1);
+	width: 108px;
+	height: 46px;
+	position: absolute;
+	left: 433px;
+	top: 143px;
+}
+
+#e172_281 {
+	background-color: rgba(255, 255, 255, 1);
+	opacity: 1;
+	border: 1px solid rgba(0, 86.00000247359276, 179.000004529953, 1);
+	width: 108px;
+	height: 46px;
+	position: absolute;
+	left: 336px;
+	top: 143px;
+}
+
+#e172_282 {
+	opacity: 1;
+	border: 1px solid rgba(0, 86.00000247359276, 179.000004529953, 1);
+	width: 108px;
+	height: 46px;
+	position: absolute;
+	left: 240px;
+	top: 143px;
+}
+
+
+
+
+
+#e172_285 {
+	position: absolute;
+	width: 108px;
+	height: 46px;
+	left: 240px;
+	top: 143px;
+	border: 1px solid #0056B3;
+	box-sizing: border-box;
+}
+
+#e172_286 {
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 60px;
+	height: 32px;
+	position: absolute;
+	left: 360px;
+	top: 144px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 14px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+
+#e172_287 {
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 84px;
+	height: 32px;
+	position: absolute;
+	left: 646px;
+	top: 144px;
+	font-family: Roboto;
+	text-align: left;
+	font-size: 14px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+
+
+#e172_79 {
+	background-color: rgba(255, 255, 255, 1);
+	opacity: 1;
+	width: 24px;
+	height: 21px;
+	position: absolute;
+	left: 1px;
+	top: 128px;
+}
+
+#ei172_79_165_24 {
+	background-color: rgba(5.511718243360519, 45.4562084376812, 88.18749949336052, 1);
+	opacity: 1;
+	width: 24px;
+	height: 21px;
+	position: absolute;
+	left: 0px;
+	top: 9.179391327052144e-7px;
+}
+
+#ei172_79_165_25 {
+	transform: rotate(-90.00000250447808deg);
+	background-color: rgba(0, 123.20227861404419, 255, 1);
+	opacity: 0.6000000238418579;
+	width: 21px;
+	height: 21px;
+	position: absolute;
+	left: 3px;
+	top: 21px;
+}
+
+#ei172_79_165_26 {
+	opacity: 1;
+	border: 0.5px solid rgba(0, 0, 0, 1);
+	width: 10px;
+	height: 11px;
+	position: absolute;
+	left: 6px;
+	top: 5.000000953674316px;
+}
+
+#e296_597 {
+	opacity: 1;
+	width: 1045px;
+	height: 66px;
+	position: absolute;
+	left: 0px;
+	top: 727px;
+	background-image: url(images/erodape_validado.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+#e310_810 {/*?*/
+	color: rgba(0, 0, 0, 1);
+	opacity: 1;
+	width: 17px;
+	height: 51px;
+	position: absolute;
+	left: 10px;
+	top: 0px;
+	font-family: Coustard;
+	text-align: left;
+	font-size: 36px;
+	letter-spacing: 0;
+	line-height: undefined;
+}
+
+#e310_811 {
+	background-color: rgba(126.00000008940697, 194.00000363588333, 217.0000022649765, 1);
+	opacity: 1;
+	width: 50px;
+	height: 14px;
+	position: absolute;
+	left: 991px;
+	top: 727px;
+}
+
+
+
+

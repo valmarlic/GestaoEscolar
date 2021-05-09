@@ -1,0 +1,2 @@
+*Caso o predio seja compartilhado informe o código da escola 
+  com qual compartilha (até 6 códigos)

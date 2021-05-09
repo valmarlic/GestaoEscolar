@@ -1,0 +1,340 @@
+/* Group 21 */
+
+position: absolute;
+width: 225px;
+height: 648px;
+left: -3px;
+top: 91px;
+
+
+
+/* Menu Lateral */
+
+position: absolute;
+width: 225px;
+height: 648px;
+left: -3px;
+top: 91px;
+
+
+
+/* Rectangle 37 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #001A36;
+
+
+/* Vector 16 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 6.79%;
+bottom: 93.21%;
+
+border: 1px solid #000000;
+
+
+/* Escola */
+
+position: absolute;
+left: 20.89%;
+right: 41.78%;
+top: 7.87%;
+bottom: 87.04%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 33px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+
+/* Frame 1 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 13.43%;
+bottom: 71.3%;
+
+
+
+/* Vector 22 */
+
+position: absolute;
+left: 0.44%;
+right: 0%;
+top: 53.54%;
+bottom: 46.46%;
+
+border: 1px solid #000000;
+
+
+/* Vector 23 */
+
+position: absolute;
+left: 0.44%;
+right: 0%;
+top: 100%;
+bottom: 0%;
+
+border: 1px solid #000000;
+
+
+/* Vector 15 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 4.04%;
+bottom: 95.96%;
+
+border: 1px solid #000000;
+
+
+/* Frame 2 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 20.68%;
+bottom: 70.22%;
+
+
+
+/* Frame 5 */
+
+position: absolute;
+visibility: hidden;
+width: 138px;
+height: 41px;
+left: 25px;
+top: 0px;
+
+
+
+/* Funcionário */
+
+position: absolute;
+visibility: hidden;
+left: 17.78%;
+right: 16.89%;
+top: 45.99%;
+bottom: 48.92%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 33px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+
+/* Vector 16 */
+
+position: absolute;
+visibility: hidden;
+left: 0.44%;
+right: -0.44%;
+top: 54.32%;
+bottom: 45.68%;
+
+border: 1px solid #000000;
+
+
+/* Rectangle 39 */
+
+position: absolute;
+left: -3.11%;
+right: 0.44%;
+top: 28.7%;
+bottom: 48.92%;
+
+background: #001A36;
+border: 0.5px solid #000000;
+box-sizing: border-box;
+
+
+/* Excluir */
+
+position: absolute;
+left: 34.22%;
+right: 6.22%;
+top: 45.99%;
+bottom: 50.77%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+
+/* Vector 22 */
+
+position: absolute;
+left: -1.33%;
+right: 1.78%;
+top: 36.27%;
+bottom: 63.73%;
+
+border: 1px solid #000000;
+
+
+/* Vector 23 */
+
+position: absolute;
+left: -1.33%;
+right: 1.78%;
+top: 43.36%;
+bottom: 56.64%;
+
+border: 1px solid #000000;
+
+
+/* Vector 24 */
+
+position: absolute;
+left: 0%;
+right: 0.44%;
+top: 51.08%;
+bottom: 48.92%;
+
+border: 1px solid #000000;
+
+
+/* Cadastro */
+
+position: absolute;
+left: 1.33%;
+right: 0.89%;
+top: 23.3%;
+bottom: 72.22%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Pesquisar */
+
+position: absolute;
+left: 34.22%;
+right: -2.67%;
+top: 30.86%;
+bottom: 64.35%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+color: #8684FF;
+
+
+
+/* Vincular */
+
+position: absolute;
+left: 34.22%;
+right: 6.22%;
+top: 38.27%;
+bottom: 58.49%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+
+/* Funcionário */
+
+position: absolute;
+width: 147px;
+height: 33px;
+left: 44px;
+top: 190px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 33px;
+/* identical to box height */
+
+color: #8684FF;
+
+
+
+/* Botão mostrar recolher */
+
+position: absolute;
+width: 24px;
+height: 21px;
+left: 1px;
+top: 143px;
+
+
+
+/* Rectangle 41 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #062D58;
+
+
+/* Polygon 1 */
+
+position: absolute;
+left: 12.5%;
+right: 0%;
+top: 100%;
+bottom: -100%;
+
+background: #007BFF;
+opacity: 0.6;
+transform: rotate(-90deg);
+
+
+/* Vector 32 */
+
+position: absolute;
+left: 25%;
+right: 33.33%;
+top: 23.81%;
+bottom: 23.81%;
+
+border: 0.5px solid #000000;

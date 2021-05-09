@@ -1,0 +1,106 @@
+<html lang="pt-br">
+          <head>
+            <meta charset="utf-8">
+          
+            <title>Novo aluno - Dados Saúde</title>
+            <meta name="description" content="Figma htmlGenerator">
+            <meta name="author" content="htmlGenerator">
+            <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+            <link rel="stylesheet" href="stylesResponsaveis.css">
+          </head>
+          
+  <body>
+
+
+ 	<div id="dv_ConteInterno"><!-- Conteiner inerno -->
+   		<div id="dv_B_DadSaude"><!-- Barra Dados Saúde -->
+   			<span class="cls_dadsSaude">Novo aluno - Dados Saúde</span>
+   		</div>
+  <div id="e295_1941"><!-- Quadro de Conteúdo -->
+   		 
+ 	<form action="#">	 
+   		<span class="cls_tipSanguieneo">Tipo Sanguíneo:</span>
+   					
+   					<select class="cls_inputTipSanguieneo" name="tip_sanguineo" value="Selecione">
+						<option>Selecione
+							<option>A+</option>
+							<option>A-</option>
+							<option>B+</option>
+							<option>AB+</option>
+							<option>AB-</option>
+							<option>O+</option>
+							<option>O-</option>
+						</option>			
+				   </select>
+   					
+   		
+   		<span class="cls_aprealergMedPrdt">Apresenta alergia a algum tipo de medicamento ou produto:</span>
+   		<input class="cls_inputRadioSim" type="radio" name="campo-radio1">
+   		<span class="cls_Sim">Sim </span>
+   		<input class="cls_inputRadioNao" type="radio" name="campo-radio1">
+   		<span class="cls_nao">Não </span>
+   		
+   		<span class="cls_quaisMedcmtoProdto"> Qual(is) medicamento(s) e/ou produto: </span>
+   		<input class="cls_inputQuaisMedcmtoProdto" value=" "></input>
+   		
+   		<span class="cls_aprestArlAlerAlimnto">Apresenta alergia a algum tipo de alimento: </span>
+   		<input class="cls_inputAprstAgunTipAlimntoSim" type="radio" name="campo-radio2">
+   		<span class="cls_aAAgunTipAlimntoSim">Sim </span>
+   		<input class="cls_inputAprstAgunTipAlimntoNao" type="radio" name="campo-radio2">
+   		<span class="cls_aAAgunTipAlimntoNao">Não </span>
+   		
+   		<span class="cls_quaisAlimentos">Qual(is) alimento(s) </span>
+   		<input class="cls_inputQuaisAlimentos" value=" "></input>
+   		
+   		
+   		<span class="cls_apresDifilFala">Apresenta dificuldade na fala? </span>
+   		<input class="cls_inputApresDiflFalaSim" type="radio" name="campo-radio3">
+   		<span class="cls_apresDiflFalaSim">Sim </span>
+   		<input class="cls_inputApresDiflFalaNao" type="radio" name="campo-radio3">
+   		<span class="cls_apresDiflFalaNao">Não </span>
+   
+   		<span class="cls_posuiAcompFonoaud">Possui acompanhamento de fonoaudiólogo? </span>
+   		<input class="cls_inputPosuiAcompFonoaudSim" type="radio" name="campo-radio4">
+   		<span class="cls_PosuiAcompFonoaudSim">Sim </span>
+   		<input class="cls_inputPosuiAcompFonoaudNao" type="radio" name="campo-radio4">
+   		<span class="cls_PosuiAcompFonoaudNao">Não </span>
+   		
+   		<span class="cls_posuiAcompPsicolgo">Possui acompanhamento psicológico? </span>
+   		<input class="cls_inputposuiAcompPsicolgoSim" type="radio" name="campo-radio5">
+   		<span class="cls_PosuiAcompPsicolgoSim">Sim </span>
+   		<input class="cls_inputposuiAcompPsicolgoNao" type="radio" name="campo-radio5">
+   		<span class="cls_posuiAcompPsicolgoNao">Não </span>
+   		
+   		<span class="cls_posuiAcompAPAE">Possui acompanhamento com APAE/PESTALOZZI? </span>
+   		<input class="cls_inputposuiAcompAPAEsim" type="radio" name="campo-radio6">
+   		<span class="cls_posuiAcompAPAEsim">Sim </span>
+   		<input class="cls_inputPosuiAcompAPAEnao" type="radio" name="campo-radio6">
+   		<span class="cls_posuiAcompAPAEnao">Não </span>
+   		
+   		<span class="cls_recbEspcoDifrntEscola">Recebe escolarização em outro espaço (diferente da Escola)? </span>
+   					<select class="cls_selectRecbEspcoDifrntEscola" name="rcb_espEscola" value="Selecione">
+						<option>Selecione
+							<option>Em hospital</option>
+							<option>Em domicílio</option>
+							<option>Não recebe escolarização fora da escola</option>
+						</option>			
+				   </select>
+ 	</div>
+ 	
+  				<div id="e295_1943"><!-- Barra Salvar Cancelar -->
+						
+				<span class="cls_29"><input type="submit" class="cls_027" value="Salvar" onClick="confirma()"></input></span>
+						 
+ 				<span class="cls_29"><input type="submit" class="cls_028" value="Cancelar"></input></span>
+ 					
+ 				</div>
+ 						
+ 	 </div>
+ 				
+   	</form>
+  </div>
+    <script type="text/javascript" src="confirma.js"></script>
+    </body>
+    
+</html>
